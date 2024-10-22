@@ -1,0 +1,234 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": 0,
+        "properties": {
+            "name": "New York Oxbow Wetland Restoration",
+            "link": ["https://www.healthylakes.org/latest-news/wetland-restoration-near-buffalo-ny-to-improve-fish-and-wildlife-populations", "https://bnwaterkeeper.org/west-seneca-oxbow/"],
+            "startTime": 2010,
+            "endTime": 2014,
+            "location": "Cattaraugus Territory",
+            "funding": 60670,
+            "type": ["Habitat Creation"],
+            "recipients": ["Town of West Seneca Conservation Commission"],
+            "description": "Protection and restoration of the Oxbow Wetland to return native plant and animal species to a 15-acre site located at an oxbow in the Buffalo Creek, Town of West Seneca."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.77041, 42.8287]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 1,
+        "properties": {
+            "name": "Canadaway Creek Restoration",
+            "link": ["https://www2.erie.gov/environment/index.php?q=watershed-projects&order=field_wp_organization_value&sort=desc"],
+            "startTime": 2015,
+            "endTime": 2017,
+            "location": "Dunkirk",
+            "funding": 236270,
+            "type": ["Habitat Creation", "Sediment Control"],
+            "recipients": ["Chautauqua County Soil and Water Conservation District"],
+            "description": "Restore three sections of Canadaway Creek to reduce sediment loading, restore aquatic habitat and restore aquatic organism passage. Approximately 0.3 miles of stream will be restored."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-79.3684179, 42.4762180]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 2,
+        "properties": {
+            "name": "Crooked Brook aquatic habitat restoration",
+            "link": ["https://extapps.dec.ny.gov/docs/water_pdf/crookbrookfinal.pdf"],
+            "startTime": 2015,
+            "endTime": 2017,
+            "location": "Dunkirk",
+            "funding": 57770,
+            "type": ["Water quality", "Sediment Control"],
+            "recipients": ["Chautauqua County Soil and Water Conservation District"],
+            "description": "Reduce sediment loading, improve water quality, and improve aquatic habitat within the stream. Bendway weirs and bank armoring were used to divert the main force of the stream flow back to the center of the channel. Resting pools were added between weirs to aid fish migration. Engineered rock riffles were used to maintain grade and prevent head cutting of the streambed."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-79.359046, 42.483306]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 3,
+        "properties": {
+            "name": "Ralph C. Wilson Junior Centennial Park",
+            "link": ["https://rwparkbuffalo.org/"],
+            "startTime": 2019,
+            "endTime": 2025,
+            "location": "Buffalo",
+            "funding": 12581717,
+            "type": ["Recreation and access", "Habitat Creation"],
+            "recipients": ["Buffalo Sewer Authority, City of Buffalo", "Great Lakes Commission"],
+            "description": "This project aims to develop design plans for bidding construction to create coastal wetland habitats along a predominantly hardened shoreline of the Niagara River in Buffalo, NY. It focuses on habitat restoration within an existing inlet in the Niagara River Area of Concern (AOC) that lacks significant habitat or coastal resilience. The anticipated outcomes include the creation of new habitats and enhancing coastal resiliency to improve ecological conditions."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.897755, 42.894066]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 4,
+        "properties": {
+            "name": "The Riverbend project",
+            "link": ["https://www.buffalourbandevelopment.com/budc-projects-riverbend-development-plan", "https://www.buffalourbandevelopment.com/documents/budc/RiverBend_Master%20Plan%20Report_%20FINAL_for%20print.pdf", "https://bnwaterkeeper.org/wp-content/uploads/2011/11/Buffalo-River-Greenway-Vision-and-Implementation-Plan.pdf"],
+            "startTime": 2013,
+            "endTime": 2018,
+            "location": "Buffalo River",
+            "funding": 1762000,
+            "type": ["Recreation and access", "Habitat Creation"],
+            "recipients": ["Great Lakes Commission"],
+            "description": "Riverbend is located on the site of the former Republic Steel and Donner Hanna Coke facilities in South Buffalo and is a key component of the larger South Buffalo Brownfield Opportunity Area (BOA). The Riverbend project will restore, protect, and improve access to the shoreline, improve connectivity along the Buffalo River Greenway, and enhance fish and wildlife habitat."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.842150, 42.857581]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 5,
+        "properties": {
+            "name": "Buffalo River AOC Restoration Project",
+            "link": ["https://www.buffalourbandevelopment.com/budc-projects-riverbend-development-plan", "https://www.buffalourbandevelopment.com/documents/budc/RiverBend_Master%20Plan%20Report_%20FINAL_for%20print.pdf", "https://bnwaterkeeper.org/wp-content/uploads/2011/11/Buffalo-River-Greenway-Vision-and-Implementation-Plan.pdf"],
+            "startTime": 2014,
+            "endTime": 2018,
+            "location": "Buffalo River",
+            "funding": 4522553,
+            "type": ["Recreation and access", "Habitat Creation"],
+            "recipients": ["Great Lakes Commission"],
+            "description": "Conduct both the design and implementation of Riverfest Park, Blue Tower Turning Basin, Toe of Kathrine St. Peninsula, and Buffalo Color Peninsula, which include habitat restoration by planting and monitoring SAV and EV."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.8708254, 42.8708120]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 6,
+        "properties": {
+            "name": "61 Smith Street Habitat Restoration",
+            "link": ["https://www.epa.gov/great-lakes-aocs/remediation-and-restoration-projects-buffalo-river-aoc"],
+            "startTime": 2015,
+            "endTime": 2022,
+            "location": "Buffalo River",
+            "funding": 831000,
+            "type": ["Habitat Creation"],
+            "recipients": ["Erie County"],
+            "description": "Smith Street Habitat Restoration is part of the shoreline and riparian habitat restoration in the Buffalo River Area of Concern, which restores approximately 1,080 linear feet of shoreline as part of the management actions."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.845576, 42.861875]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 7,
+        "properties": {
+            "name": "Katherine Street Habitat Restoration Project",
+            "link": ["https://www.glri.us/node/570", "https://www.glc.org/wp-content/uploads/TKSP_Monitoring_Report.pdf", "https://www.epa.gov/great-lakes-aocs/remediation-and-restoration-projects-buffalo-river-aoc"],
+            "startTime": 2016,
+            "endTime": 2023,
+            "location": "Buffalo River",
+            "funding": 3887255.71,
+            "type": ["Habitat Creation"],
+            "recipients": ["U.S. EPA", "Dept. of Defense-U.S. Army Corps of Engineers"],
+            "description": "1,190 linear feet of fish habitat was restored with emergent and submergent aquatic vegetation and in-water habitat structures under the GLLA program."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.85535, 42.85821]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 8,
+        "properties": {
+            "name": "Evans Town Park Beach Water Quality Improvement Project",
+            "link": ["https://townofevansny.gov/docs/legal-public-notices/archives/2022/town-of-evans-rfp-for-parks-master-plan-11-3-2022/?layout=default"],
+            "startTime": 2016,
+            "endTime": 2017,
+            "location": "Town of Evans",
+            "funding": 172125,
+            "type": ["Flood control"],
+            "recipients": ["U.S. EPA", "Dept. of Defense-U.S. Army Corps of Engineers"],
+            "description": "The Town of Evans will install several green infrastructure measures at Evans Town Park to reduce discharges of untreated stormwater runoff into Lake Erie, reduce bacteria loading at the beach, and help keep the beach safer for swimming."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-79.065565, 42.640649]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 9,
+        "properties": {
+            "name": "Blasdell Creek Wetland Project",
+            "link": ["https://www.glri.us/node/597"],
+            "startTime": 2016,
+            "endTime": 2018,
+            "location": "Buffalo",
+            "funding": 438069,
+            "type": ["Habitat Creation"],
+            "recipients": ["New York State Office of Parks, Recreation and Historic Preservation"],
+            "description": "NYS Parks proposes to conserve, restore, enhance, and/or create wetlands on Blasdell Creek at Woodlawn Beach State Park, in the town of Hamburg, NY to enhance biodiversity, wildlife habitat and improve water quality."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.85373, 42.78882]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 10,
+        "properties": {
+            "name": "The Seneca Bluffs Natural Habitat Park",
+            "link": ["https://www3.erie.gov/parks/seneca-bluffs-natural-habitat-park", "https://regionalcouncils.ny.gov/cfa/project/411602"],
+            "startTime": 2015,
+            "endTime": 2022,
+            "location": "Buffalo",
+            "funding": 2233501,
+            "type": ["Habitat Creation"],
+            "recipients": ["Dept. of Defense-U.S. Army Corps of Engineers"],
+            "description": "This project will result in the restoration of 3,100 linear feet of shoreline along the Buffalo River, which constructs a raised wetland boardwalk with accessibility updates to promote inclusive recreation and environmental conservation."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.8195, 42.8652]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 11,
+        "properties": {
+            "name": "Buffalo Outer Harbor Slip Restoration",
+            "link": ["https://glri.us/node/602#:~:text=Now%2C%20the%20USACE%20Buffalo%20District,to%20native%20fish%20and%20birds.", "https://esd.ny.gov/sites/default/files/Outer-Harbor-projects-Map.pdf"],
+            "startTime": 2017,
+            "endTime": 2022,
+            "location": "Buffalo",
+            "funding": 14000000,
+            "type": ["Habitat Creation"],
+            "recipients": ["Dept. of Defense-U.S. Army Corps of Engineers"],
+            "description": "Buffalo RSM is located in the Buffalo Harbor in Buffalo, NY. The purpose of this beneficial use project is to evaluate ecosystem restoration opportunities utilizing dredged material at Buffalo Harbor and will focus on restoration of coastal wetland habitat."
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.8764, 42.8696]
+        }
+      }
+    ]
+  }
+  

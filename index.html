@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- add code to fit phone access -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>Lake Erie Coastal Strategies Library</title>
+        <!-- add leaflet map css component -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+        <!-- link css file -->
+        <link rel="stylesheet" href="css/main-style.css">
+
+        <!-- add favicon -->
+        <link rel="shortcurt icon" href="https://junyi2022.github.io/Lake-Erie-Coastal-Unit-Explorer/favicon.ico" type="image/x-icon">
+       
+    </head>
+
+    <body>
+          
+        <header>
+            
+            <div class="menu-background">
+                <nav class="menu">
+                    <div class="unit-generator-button menu-cat"><strong>Unit Generator</strong></div>
+                    <div class="find-similar-area menu-cat"><strong>Similarity Finder</strong></div>
+                    <div class="strategy-filter menu-cat"><strong>Strategy Filter</strong></div>
+                    <div class="data-explorer menu-cat"><strong>Data Explorer</strong></div>
+                    <div class="strategy-library menu-cat"><strong>Strategy List</strong></div>
+                    <div class="documentation menu-cat"><strong>Documentation</strong></div>
+                    <div class="menu-block"></div>
+                </nav>
+            </div>
+            
+
+        </header>
+
+        <main>
+            <!-- have a function to enable smooth scroll when using toc instead of jumping -->
+            <script>
+                function smoothScroll(sectionId) {
+                    event.preventDefault(); // Prevent default anchor behavior
+                    const section = document.getElementById(sectionId);
+                    section.scrollIntoView({ behavior: 'smooth' });
+                }
+            </script>
+
+        </main>
+
+        <footer class="footer">
+            <p id="footnote">
+                <strong>University of Pennsylvania</strong> <a href="https://emlabupenn.com/" target="_blank"><strong>EMLab</strong></a> Last update: June 2024.
+            </p>
+        </footer>
+
+        <!-- add leaflet library -->
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+        <!-- add TURF library -->
+        <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+        <!-- link js file -->
+        <script type="module" src="js/main.js"></script>
+    </body>
+</html>
