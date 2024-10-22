@@ -1,0 +1,227 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+p {
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.foot-font {
+    color: gray;
+}
+
+.foot-text {
+    font-size: 12px;
+    line-height: 1.2;
+    margin-top: 5px;
+}
+
+.step-notes {
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+li {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 1.8;
+}
+
+li p {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+.p-dock {
+    line-height: 1.8;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ul {
+    margin: 0;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-size: 15px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+/* Default button style */
+
+.button {
+    background-color: #F4F3F1;
+    border: 0;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 0 3px #b5b5b5;
+    color: rgb(42, 42, 43);
+}
+
+.button:hover {
+    background-color: #DFE5F2;
+    cursor: pointer;
+}
+
+.button:active {
+    box-shadow: 0 1px #979797;
+    transform: translateY(1px)
+}
+
+/* overall layout style */
+
+html {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    height: 100vh;
+    color: rgb(62, 62, 63)
+    /* overflow: hidden; */
+}
+
+/* menu bar adjust */
+
+.menu-background {
+    height: 45px;
+    background-color: rgba(242, 249, 255, 0.9);
+    position: relative;
+    top: 1.5rem;
+    z-index: 9999;
+}
+
+.menu {
+    height: 45px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    margin-left: 1rem;
+}
+
+.menu-cat {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(66, 80, 73);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.menu-cat:hover {
+    color: rgb(202, 92, 92);
+}
+
+.menu-block {
+    height: 45px;
+    width: 150px;
+    background-color: #e4f0fb;
+    position: absolute;
+    left: 0;
+    border-radius: 12px;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+/* control the original state of all the div exceot UG */
+
+.container {
+    display: none;
+    height: calc(100vh - 1.5rem - 45px - 3vh);
+    overflow: auto;
+    width: 100%;
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+}
+
+/* temporary style for the placeholder */
+.draft {
+    left: 300px;
+    position: relative;
+    width: 70%;
+}
+
+/* main part style*/
+main {
+    height: calc(100vh - 1.5rem - 45px - 3vh);
+    position: relative;
+    top: calc(1.5rem);
+}
+
+/* footer part style */
+
+footer {
+    height: 3vh;
+    font-size: 12px;
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    top: 1.5rem;
+}
+
+#footnote {
+    margin: 0;
+    margin-left: 1%;
+    box-sizing: border-box;
+}
+
+/* specify link color  */
+a {
+    color: rgb(94, 121, 112);
+    text-decoration: none;
+}
+
+a:visited {
+color: rgb(94, 121, 112);
+}
+
+a:hover {
+color: rgb(202, 92, 92);
+font-weight: bold;
+}
+
+a:active {
+color: rgb(202, 92, 92);
+}
+
+.inline-link {
+    text-decoration: underline;
+}
+
+.inline-link:hover {
+    font-weight: normal;
+}
+
+/* define "remove" status */
+.hidden {
+    display: none;
+  }
