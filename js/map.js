@@ -1,4 +1,10 @@
 /* globals turf */
+import * as d3 from 'https://cdn.jsdelivr.net/npm/d3@7/+esm';
+
+// color scale for project categories
+// more info at: https://d3js.org/d3-interpolate/color#interpolateRgb
+const colorScale = d3.interpolateRgbBasis(['rgb(140, 152, 255)', 'rgb(154, 220, 255)', 'rgb(186, 249, 183)', 'rgb(255, 211, 153)', 'rgb(255, 155, 144)']);
+window.colorScale = colorScale;
 
 // prepare data for maps
 
@@ -16,6 +22,7 @@ const esriWorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/res
 });
 
 // data layers style
+
 const boundaryStyle = {
   stroke: true,
   fill: false,
@@ -58,6 +65,21 @@ const shorelineBaseStyle = {
   color: '#EF8F5D',
   weight: 1.8,
 };
+
+// project category style
+
+const categoryStyle = {
+  'Habitat Protection': 0,
+  'Habitat Creation': 0.12,
+  'Sediment Control': 0.24,
+  'Invasive species control': 0.36,
+  'Species Protection': 0.48,
+  'Water quality': 0.6,
+  'Flood control': 0.72,
+  'Recreation and access': 1,
+};
+
+// map
 
 function initializeMap(censusTracts, dataBoundary, huc10, huc12, county, shorelineBase, previousProjects) {
   const map = L.map('map-projects', {zoomSnap: 0, layers: [mapBoxTile]}).setView([42.57, -79.22], 10); // zoomSnap 0 make the zoom level to real number
@@ -112,7 +134,7 @@ function initializeMap(censusTracts, dataBoundary, huc10, huc12, county, shoreli
 
   // make the zoom level fit different browser size
   // always focus on the buffer zone when initialize the map
-  const zoomRef = turf.buffer(dataBoundary, 20);
+  const zoomRef = turf.buffer(dataBoundary, 2);
   map.zoomRefLayer = L.geoJSON(zoomRef);
   map.fitBounds(map.zoomRefLayer.getBounds());
 
@@ -126,11 +148,32 @@ function initializeMap(censusTracts, dataBoundary, huc10, huc12, county, shoreli
     map.dataBoundaryLayer.bringToFront();
   });
 
+  // add previous projects
+
+  map.projectLayer = L.geoJSON(previousProjects,
+    {style: calProjectStyle,
+      pointToLayer: (projects, latlng) => L.circleMarker(latlng), // just type latlng or any names and leaflet know how to find goejson's coordinate
+      // Can also do the latlng manually, remember to flip the lon lat (leaflet and geojson read it in the opposite way)
+      // pointToLayer: (parks) => L.circleMarker([parks.geometry.coordinates[1], parks.geometry.coordinates[0]]),
+    }).bindTooltip((l) => {
+    return `<p class="project-tooltip"><strong>Name:</strong> ${l.feature.properties.name}</p>`;
+  }).bindPopup((l) => {
+    return `<h3 class="pop-title">${l.feature.properties.name}</h3>
+    <p class="pop-content"><strong>Start Time:</strong> ${l.feature.properties.startTime}</p>
+    <p class="pop-content"><strong>End Time:</strong> ${l.feature.properties.endTime}</p>
+    <p class="pop-content"><strong>Location:</strong> ${l.feature.properties.location}</p>
+    <p class="pop-content"><strong>Funding:</strong> ${l.feature.properties.funding}</p>
+    <p class="pop-content"><strong>Recipient:</strong> ${l.feature.properties.recipients}</p>
+    <p class="pop-content"><strong>Project Type:</strong> ${l.feature.properties.type}</p>`;
+  });
+
+  map.projectLayer.addTo(map);
 
   return map;
 }
 
 // back button
+
 function backButtonStyle(map) {
   const backDiv = document.createElement('div');
   backDiv.classList.add('back-button'); // div class
@@ -146,6 +189,55 @@ function backButtonStyle(map) {
 function resetAllStyles(map) {
   map.fitBounds(map.zoomRefLayer.getBounds());
 }
+
+// project layer style
+
+function calProjectStyle(projects) {
+  const category = projects.properties.type[0];
+  const catColor = colorScale(categoryStyle[category]);
+  console.log(catColor);
+  return {
+    radius: 8,
+    fillColor: catColor,
+    color: catColor,
+    weight: 1,
+    opacity: 1,
+    fillOpacity: 0.8,
+  };
+}
+
+// legend style
+
+// function legend1Style(map, colorScale, divname) {
+//   const legendDiv = document.createElement('div'); // abstract html div tag
+//   legendDiv.classList.add('legend'); // div class
+//   legendDiv.innerHTML = '<h4 class="legendTitle">Legend</h4>'; // add html content
+
+//   const legendContent = document.createElement('div'); // abstract html div tag
+//   legendContent.classList.add(divname); // div class
+
+//   // create a new div to hold unit legend
+//   const unitColorLegendDiv = document.createElement('div');
+//   unitColorLegendDiv.classList.add('unit-legend');
+//   let html = `
+//     <strong><p>Group Number</p></strong>
+//     <div class="catWrapper">
+//   `;
+
+//   for (let i = 0; i < numvalues; i++) {
+//     html += `
+//     <div class="colorTextPair">
+//     <div class="catColorBox" style="background-color: ${ColorScale(catColor)}"></div>
+//     <p class="catText">Group ${i+1}</p>
+//     </div>
+//     `;
+//   }
+
+//   html += '</div>'; // Close the wrapper
+//   unitColorLegendDiv.innerHTML = html;
+
+//   legendContent.appendChild(unitColorLegendDiv);
+// }
 
 export {
   initializeMap,
