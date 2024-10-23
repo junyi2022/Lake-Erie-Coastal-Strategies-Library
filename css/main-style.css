@@ -102,6 +102,13 @@ html {
     /* overflow: hidden; */
 }
 
+.cap {
+    width: 100%;
+    height: 1.5rem;
+    position: fixed;
+    background: linear-gradient(90deg, rgba(233,246,237,1) 6%, rgba(194,219,242,1) 100%);
+}
+
 /* menu bar adjust */
 
 .menu-background {
@@ -158,9 +165,10 @@ html {
     width: 100%;
 }
 
-.body {
+.body-section {
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
 }
 
 /* temporary style for the placeholder */
