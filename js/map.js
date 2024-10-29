@@ -72,11 +72,11 @@ const categoryStyle = {
   'Habitat Protection': 0,
   'Habitat Creation': 0.12,
   'Sediment Control': 0.24,
-  'Invasive species control': 0.36,
+  'Erosion Control': 0.36,
   'Species Protection': 0.48,
-  'Water quality': 0.6,
-  'Flood control': 0.72,
-  'Recreation and access': 1,
+  'Water Quality': 0.6,
+  'Flood Control': 0.72,
+  'Recreation and Access': 1,
 };
 
 // map
@@ -158,13 +158,15 @@ function initializeMap(censusTracts, dataBoundary, huc10, huc12, county, shoreli
     }).bindTooltip((l) => {
     return `<p class="project-tooltip"><strong>Name:</strong> ${l.feature.properties.name}</p>`;
   }).bindPopup((l) => {
-    return `<h3 class="pop-title">${l.feature.properties.name}</h3>
+    return `<h3 class="pop-title"><a href=${l.feature.properties.link[0]} target="_blank">${l.feature.properties.name}</a></h3>
+    <img class="pop-img" src="${l.feature.properties.image}">
     <p class="pop-content"><strong>Start Time:</strong> ${l.feature.properties.startTime}</p>
     <p class="pop-content"><strong>End Time:</strong> ${l.feature.properties.endTime}</p>
     <p class="pop-content"><strong>Location:</strong> ${l.feature.properties.location}</p>
     <p class="pop-content"><strong>Funding:</strong> ${l.feature.properties.funding}</p>
     <p class="pop-content"><strong>Recipient:</strong> ${l.feature.properties.recipients}</p>
-    <p class="pop-content"><strong>Project Type:</strong> ${l.feature.properties.type}</p>`;
+    <p class="pop-content"><strong>Project Type:</strong> ${l.feature.properties.type}</p>
+    <p class="pop-content"><strong>Description:</strong> ${l.feature.properties.description}</p>`;
   });
 
   map.projectLayer.addTo(map);
