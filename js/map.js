@@ -163,7 +163,7 @@ function initializeMap(censusTracts, dataBoundary, huc10, huc12, county, shoreli
     <p class="pop-content"><strong>Start Time:</strong> ${l.feature.properties.startTime}</p>
     <p class="pop-content"><strong>End Time:</strong> ${l.feature.properties.endTime}</p>
     <p class="pop-content"><strong>Location:</strong> ${l.feature.properties.location}</p>
-    <p class="pop-content"><strong>Funding:</strong> ${l.feature.properties.funding}</p>
+    <p class="pop-content"><strong>Funder:</strong> ${l.feature.properties.funder}</p>
     <p class="pop-content"><strong>Recipient:</strong> ${l.feature.properties.recipients}</p>
     <p class="pop-content"><strong>Project Type:</strong> ${l.feature.properties.type}</p>
     <p class="pop-content"><strong>Description:</strong> ${l.feature.properties.description}</p>`;
