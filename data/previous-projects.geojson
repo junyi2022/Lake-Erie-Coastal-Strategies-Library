@@ -10,6 +10,7 @@
             "startTime": 2010,
             "endTime": 2014,
             "location": "Cattaraugus Territory",
+            "funder": "GLRI",
             "funding": 60670,
             "type": ["Habitat Creation"],
             "recipients": ["Town of West Seneca Conservation Commission"],
@@ -29,6 +30,7 @@
             "startTime": 2015,
             "endTime": 2017,
             "location": "Dunkirk",
+            "funder": "GLRI",
             "funding": 236270,
             "type": ["Habitat Creation", "Sediment Control"],
             "recipients": ["Chautauqua County Soil and Water Conservation District"],
@@ -48,8 +50,9 @@
             "startTime": 2015,
             "endTime": 2017,
             "location": "Dunkirk",
+            "funder": "GLRI",
             "funding": 57770,
-            "type": ["Water quality", "Sediment Control"],
+            "type": ["Water Quality", "Sediment Control"],
             "recipients": ["Chautauqua County Soil and Water Conservation District"],
             "description": "Reduce sediment loading, improve water quality, and improve aquatic habitat within the stream. Bendway weirs and bank armoring were used to divert the main force of the stream flow back to the center of the channel. Resting pools were added between weirs to aid fish migration. Engineered rock riffles were used to maintain grade and prevent head cutting of the streambed."
         },
@@ -64,13 +67,15 @@
         "properties": {
             "name": "Ralph C. Wilson Junior Centennial Park",
             "link": ["https://rwparkbuffalo.org/"],
-            "startTime": 2019,
+            "startTime": 2018,
             "endTime": 2025,
             "location": "Buffalo",
+            "funder": "GLRI",
             "funding": 12581717,
-            "type": ["Recreation and access", "Habitat Creation"],
+            "type": ["Recreation and Access", "Habitat Creation"],
             "recipients": ["Buffalo Sewer Authority, City of Buffalo", "Great Lakes Commission"],
-            "description": "This project aims to develop design plans for bidding construction to create coastal wetland habitats along a predominantly hardened shoreline of the Niagara River in Buffalo, NY. It focuses on habitat restoration within an existing inlet in the Niagara River Area of Concern (AOC) that lacks significant habitat or coastal resilience. The anticipated outcomes include the creation of new habitats and enhancing coastal resiliency to improve ecological conditions."
+            "description": "This project aims to develop design plans for bidding construction to create coastal wetland habitats along a predominantly hardened shoreline of the Niagara River in Buffalo, NY. It focuses on habitat restoration within an existing inlet in the Niagara River Area of Concern (AOC) that lacks significant habitat or coastal resilience. The anticipated outcomes include the creation of new habitats and enhancing coastal resiliency to improve ecological conditions.",
+            "image": "/img/project-img/Ralph-C-Wilson-Junior-Centennial-Park.png"
         },
         "geometry": {
           "type": "Point",
@@ -81,13 +86,14 @@
         "type": "Feature",
         "id": 4,
         "properties": {
-            "name": "The Riverbend project",
-            "link": ["https://www.buffalourbandevelopment.com/budc-projects-riverbend-development-plan", "https://www.buffalourbandevelopment.com/documents/budc/RiverBend_Master%20Plan%20Report_%20FINAL_for%20print.pdf", "https://bnwaterkeeper.org/wp-content/uploads/2011/11/Buffalo-River-Greenway-Vision-and-Implementation-Plan.pdf"],
+            "name": "Buffalo River AOC Restoration Project: Riverbend project",
+            "link": ["https://www.buffalourbandevelopment.com/budc-projects-riverbend-development-plan", "https://www.buffalourbandevelopment.com/documents/budc/RiverBend_Master%20Plan%20Report_%20FINAL_for%20print.pdf", "https://bnwaterkeeper.org/wp-content/uploads/2011/11/Buffalo-River-Greenway-Vision-and-Implementation-Plan.pdf", "https://www.biohabitats.com/project/riverbend-commerce-park-site-development-plan/"],
             "startTime": 2013,
             "endTime": 2018,
             "location": "Buffalo River",
+            "funder": "GLRI",
             "funding": 1762000,
-            "type": ["Recreation and access", "Habitat Creation"],
+            "type": ["Recreation and Access", "Habitat Creation"],
             "recipients": ["Great Lakes Commission"],
             "description": "Riverbend is located on the site of the former Republic Steel and Donner Hanna Coke facilities in South Buffalo and is a key component of the larger South Buffalo Brownfield Opportunity Area (BOA). The Riverbend project will restore, protect, and improve access to the shoreline, improve connectivity along the Buffalo River Greenway, and enhance fish and wildlife habitat."
         },
@@ -105,8 +111,9 @@
             "startTime": 2014,
             "endTime": 2018,
             "location": "Buffalo River",
+            "funder": "GLRI",
             "funding": 4522553,
-            "type": ["Recreation and access", "Habitat Creation"],
+            "type": ["Recreation and Access", "Habitat Creation"],
             "recipients": ["Great Lakes Commission"],
             "description": "Conduct both the design and implementation of Riverfest Park, Blue Tower Turning Basin, Toe of Kathrine St. Peninsula, and Buffalo Color Peninsula, which include habitat restoration by planting and monitoring SAV and EV."
         },
@@ -124,6 +131,7 @@
             "startTime": 2015,
             "endTime": 2022,
             "location": "Buffalo River",
+            "funder": "GLRI",
             "funding": 831000,
             "type": ["Habitat Creation"],
             "recipients": ["Erie County"],
@@ -143,6 +151,7 @@
             "startTime": 2016,
             "endTime": 2023,
             "location": "Buffalo River",
+            "funder": "GLRI",
             "funding": 3887255.71,
             "type": ["Habitat Creation"],
             "recipients": ["U.S. EPA", "Dept. of Defense-U.S. Army Corps of Engineers"],
@@ -162,8 +171,9 @@
             "startTime": 2016,
             "endTime": 2017,
             "location": "Town of Evans",
+            "funder": "GLRI",
             "funding": 172125,
-            "type": ["Flood control"],
+            "type": ["Flood Control"],
             "recipients": ["U.S. EPA", "Dept. of Defense-U.S. Army Corps of Engineers"],
             "description": "The Town of Evans will install several green infrastructure measures at Evans Town Park to reduce discharges of untreated stormwater runoff into Lake Erie, reduce bacteria loading at the beach, and help keep the beach safer for swimming."
         },
@@ -181,10 +191,12 @@
             "startTime": 2016,
             "endTime": 2018,
             "location": "Buffalo",
+            "funder": "GLRI",
             "funding": 438069,
             "type": ["Habitat Creation"],
             "recipients": ["New York State Office of Parks, Recreation and Historic Preservation"],
-            "description": "NYS Parks proposes to conserve, restore, enhance, and/or create wetlands on Blasdell Creek at Woodlawn Beach State Park, in the town of Hamburg, NY to enhance biodiversity, wildlife habitat and improve water quality."
+            "description": "This project involves the expansion and enhancement of an existing 3.26 acre wetland to create a total of 4.26 acres of restored wetland adjacent to Blasdell Creek in Woodlawn Beach State Park. Goals includehabitat enhancement and improving water quality, especially adjacent to a public swimming beach. The project involved installation of a 5x8' concrete box culvert, removal of invasive species like Japanese knotweed, and installation of native plants (126 trees, 4,184 shrubs, and 9,840 herbaceous plants).",
+            "image": "/img/project-img/Blasdell-Creek-Wetland-Project.png"
         },
         "geometry": {
           "type": "Point",
@@ -200,6 +212,7 @@
             "startTime": 2015,
             "endTime": 2022,
             "location": "Buffalo",
+            "funder": "GLRI",
             "funding": 2233501,
             "type": ["Habitat Creation"],
             "recipients": ["Dept. of Defense-U.S. Army Corps of Engineers"],
@@ -219,6 +232,7 @@
             "startTime": 2017,
             "endTime": 2022,
             "location": "Buffalo",
+            "funder": "GLRI",
             "funding": 14000000,
             "type": ["Habitat Creation"],
             "recipients": ["Dept. of Defense-U.S. Army Corps of Engineers"],
@@ -227,6 +241,426 @@
         "geometry": {
           "type": "Point",
           "coordinates": [-78.8764, 42.8696]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 12,
+        "properties": {
+            "name": "Barrier rock reefs at Little Beaver Island",
+            "link": ["https://bnwaterkeeper.org/littlebeaverisland/"],
+            "startTime": null,
+            "endTime": null,
+            "location": "Niagara River",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Erosion Control", "Habitat Creation", "Habitat Protection"],
+            "recipients": ["NYS Parks, Recreation, and Historic Preservation (Landowner)"],
+            "description": "Three barrier rock reefs were installed in the water to protect eroding banks of Beaver Island at the mouth of the Niagara River. The design includes recliamed logs from the site and a tern nesting area. Fish and native mussel habitat were installed as well.",
+            "image": "/img/project-img/Barrier-rock-reefs-at-Little-Beaver-Island.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.959493, 42.958928]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 13,
+        "properties": {
+            "name": "Beaver Island Wetland Enhancement Project",
+            "link": ["https://parks.ny.gov/documents/parks/BeaverIslandBeaverIslandWetlandEnhancementProject.pdf"],
+            "startTime": 2023,
+            "endTime": 2024,
+            "location": "Niagara River",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Habitat Creation", "Habitat Protection", "Flood Control"],
+            "recipients": ["NYS Parks, Recreation, and Historic Preservation"],
+            "description": "The NYS Office of Parks, Recreaiton, and Historic Preservation excavated 1.5 acres of wetland habitat connected to the Niagara River to support wildlife and native plants. The design also included submerged rock and woody habitat structures for fish. Invasive trees and brush were replaced with native trees, meadow, and wetland species.",
+            "image": "/img/project-img/Beaver-Island-Wetland-Enhancement-project.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.965249, 42.962870]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 14,
+        "properties": {
+            "name": "East River Marsh Habitat Enhancement",
+            "link": ["https://www.wsp.com/en-us/projects/east-river-marsh-habitat-enhancement"],
+            "startTime": null,
+            "endTime": null,
+            "location": "Niagara River",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Habitat Creation", "Erosion Control", "Recreation and Access"],
+            "recipients": ["NYS Parks, Recreation, and Historic Preservation"],
+            "description": "This project involves habitat restoration improvements to the East River Marsh on Beaver Island State Park. The East River Marsh has an existing wetlands area and rock reefs. This project added a deepened ferry slip with fish habitat structures, expanded wetland plantings along the slip, five new rock reefs, a deepened pond for fish habitat, and cabled logs for shore protection. They also expanded an existing trail system to connect it to bird watching areas along the shoreline.",
+            "image": "/img/project-img/East-River-Marsh-Habitat-Enhancement.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.940999, 42.966030]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 15,
+        "properties": {
+            "name": "Buckhorn Island Shoreline and Grass Island Habitat Enhancement",
+            "link": ["https://www.wsp.com/en-us/projects/buckhorn-island-shoreline-and-grass-island-habitat-enhancement"],
+            "startTime": null,
+            "endTime": null,
+            "location": "Niagara River",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Habitat Protection", "Habitat Creation", "Erosion Control"],
+            "recipients": ["NYS Parks, Recreation, and Historic Preservation"],
+            "description": "This is a habitat enhancement project that aimed to restore 9,000 feet of shoreline on the north edge of Buckhorn Island State park and protect the in-river Grass Island from further degradation. For the Buckhorn Island Shoreline, they installed rock sills and cabled logs and added native planting along eroding areas. For Grass Island, they added rock reefs to break up wave energy and expand the footprint of the island over time.",
+            "image": "/img/project-img/Buckhorn-Island-Shoreline-and-Grass-Island-Habitat-Enhancement.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.970265, 43.062914]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 16,
+        "properties": {
+            "name": "Living Shoreline Project at Ellicott Creek Park",
+            "link": ["https://www.wsp.com/en-us/projects/buckhorn-island-shoreline-and-grass-island-habitat-enhancement"],
+            "startTime": 2016,
+            "endTime": 2017,
+            "location": "Ellicott River, Tonawanda",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Erosion Control", "Water Quality", "Habitat Creation"],
+            "recipients": ["Erie County Parks"],
+            "description": "This living shoreline project aimed to restore 450 feet of steep, invasive plant and turf-dominated shoreline in Ellicott Creek Park. This involved adding native planting along the waters edge and adding boulders, logs, and vegetation in the water to provide habitat and protect the shoreline. Additionally, they created soil berms to direct stormwater into bioretention areas that function as vernal pools.",
+            "image": "/img/project-img/Living-Shoreline-Project-at-Ellicott-Creek-Park.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.830061, 43.018885]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 17,
+        "properties": {
+            "name": "Living Shoreline Project at Ellicott Island Bark Park",
+            "link": ["https://www.wsp.com/en-us/projects/buckhorn-island-shoreline-and-grass-island-habitat-enhancement"],
+            "startTime": 2024,
+            "endTime": 2024,
+            "location": "Tonawanda",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Erosion Control", "Water Quality", "Habitat Creation"],
+            "recipients": ["Erie County Parks"],
+            "description": "This 15,000 sq ft project at an off-leash dog park on Ellicott Island Park aimed to address habitat loss, shoreline erosion, and turbidity issues. The design included installation of barrier rock reefs, soil lifts, contour swales to capture stormwater runoff, and creating a more defined and stabilized water access area for humans and dogs. Natie plantings were also installed to strengthen the shoreline and attract widlife.",
+            "image": "/img/project-img/Living-Shoreline-Project-at-Ellicott-Island-Bark-Park.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.828198, 43.030326]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 18,
+        "properties": {
+            "name": "Living Shoreline Project at Hyde Park",
+            "link": ["https://bnwaterkeeper.org/hyde-park/"],
+            "startTime": 2017,
+            "endTime": 2017,
+            "location": "Niagara Falls",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Erosion Control", "Water Quality", "Habitat Creation"],
+            "recipients": ["City of Niagara Falls"],
+            "description": "This project addresses bank erosion along 600 feet of shoreline on Hyde Park Lake. Improvements included grading to create a gentler slope between land and water, addition of cattail marsh, woodland, meadow, and aquatic habitat, addition of 1,300 native plants. Boulders, plants, and woody material were also added to reduce erosion in the water.",
+            "image": "/img/project-img/Living-Shoreline-Project-at-Hyde-Park.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-79.022700, 43.097276]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 19,
+        "properties": {
+            "name": "Living Shoreline Project at North Tonawanda Botanical Garden",
+            "link": ["https://bnwaterkeeper.org/hyde-park/"],
+            "startTime": 2019,
+            "endTime": 2021,
+            "location": "Tonawanda",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Habitat Creation", "Erosion Control", "Water Quality"],
+            "recipients": ["Canal Corporation (Landowner)", " City of North Tonawanda (Collaborator & land manager)"],
+            "description": "This project focused on an acre of land in North Tonawanda Botanical garden next to Tonawanda Creek, which has a history of channelization and ecosystem degradation. In this project, the shoreline was pulled back to create a cove along the waterfront, protected with recycled ash trees from on-site. They also incorporated a swale to filter runoff from the parking lot into the creek.",
+            "image": "/img/project-img/Living-Shoreline-Project-at-North-Tonawanda-Botanical-Garden.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.827254, 43.038736]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 20,
+        "properties": {
+            "name": "Living Shoreline Project at Sandy Beach Park Club",
+            "link": ["https://bnwaterkeeper.org/sandy-beach/"],
+            "startTime": 2015,
+            "endTime": 2016,
+            "location": "Niagara River",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Erosion Control", "Habitat Creation", "Water Quality"],
+            "recipients": ["Sandy Beach Park Club"],
+            "description": "This project is on the north end of Grand Island for a community membership organization called Sandy Beach Park Club. The project involved removal of hardened sheet metal and concrete bulkhead, regrading, placcement of boulders, rocks, and logs to dissappate wave energy, and native planting in water, along the shoreline, and in upland areas.",
+            "image": "/img/project-img/Living-Shoreline-Project-at-Sandy-Beach-Park-Club.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.961678, 43.061141]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 21,
+        "properties": {
+            "name": "Living Shoreline Project at Spicer Creek",
+            "link": ["https://bnwaterkeeper.org/spicer-creek/"],
+            "startTime": 2019,
+            "endTime": 2020,
+            "location": "Niagara River",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Water Quality", "Erosion Control", "Habitat Creation"],
+            "recipients": ["River Oaks Golf Club"],
+            "description": "Design intervention to improve water quality and ecological conditions along Spicer Creek, a tributary to the Niagara. Interventions involved softening the banks of an irrigation pond and installing native plants, live stakes, and boulders to address erosion. Step-pools were also added to treat water entering the stream. In total, this project restored 5,280ft of shoreline over two acres.",
+            "image": "/img/project-img/Living-Shoreline-Project-at Spicer-Creek.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.898786, 43.025550]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 22,
+        "properties": {
+            "name": "Living Shoreline Project at Tifft Nature Preserve",
+            "link": ["https://bnwaterkeeper.org/tifft-nature-preserve/"],
+            "startTime": 2019,
+            "endTime": 2019,
+            "location": "Buffalo",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Erosion Control", "Habitat Creation"],
+            "recipients": ["Buffalo Museum of Science", "City of Buffalo (landowner)"],
+            "description": "300 ft along Lake Kirsty Previously a hard edge with invasive Japanese knotweed Goals included creating a more gradual transition at the water's edge, using natural and on-site materials (such as tree snags, boulders, logs, and vegetation to control erosion and create habitat, establish native vegetation.",
+            "image": "/img/project-img/Living-Shoreline-Project-at-Tifft-Nature-Preserve.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.856604, 42.847332]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 23,
+        "properties": {
+            "name": "Red Jacket Riverfront Park Restoration",
+            "link": ["https://www.biohabitats.com/project/erie-county-red-jacket-park/"],
+            "startTime": 2016,
+            "endTime": 2018,
+            "location": "Buffalo",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Erosion Control", "Habitat Protection"],
+            "recipients": ["Erie County"],
+            "description": "This project was part of a larger effort to improve habitat along part of the Buffalo River that has been designated as a Great Lakes Area of Concern. The first step was removing contaminated sediment from the river. Then, as part of the restoration project, Biohabitats and Wendel added rock weirs along the shoreline to encourage sediment deposition and establishment of aquatic vegetation. They also treated invasive species and installed a 'living fence' along property lines to limit invasive spread.",
+            "image": "/img/project-img/Red-Jacket-Riverfront-Park-Restoration.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.852560, 42.863744]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 24,
+        "properties": {
+            "name": "Unity Island",
+            "link": ["https://www.lrd.usace.army.mil/Media/News/Article/3634827/wetland-restoration-with-dredged-material-proving-successful-in-buffalos-back-y/"],
+            "startTime": 2018,
+            "endTime": 2018,
+            "location": "Buffalo",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Habitat Creation"],
+            "recipients": ["Unknown"],
+            "description": "This project involves the beneficial reuse of dredged material to create wetland habitat construction started in May 2018, could take 5-10 years to establish. Sediment comes from the bottom of the Buffalo River during a large cleanup. Intent is to create 5 acres of restored 'hemi-marsh' habitat, including native pond weeds and grasses in shallow water. Benefits: providing spawning and nursing ground for fish, foraging and nesting area for marsh and shore birds like herons and rails, turtles. September 2021 monitoring report already notes success in providing high quality habitat- Lake Erie Habitat Evaluation Index score rose by 128.8% since the beginning of the project.",
+            "image": "/img/project-img/Unity-Island.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.908561, 42.935589]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 25,
+        "properties": {
+            "name": "Sturgeon Point Marina",
+            "link": ["https://www.lrd.usace.army.mil/Media/News/Article/3634827/wetland-restoration-with-dredged-material-proving-successful-in-buffalos-back-y/"],
+            "startTime": 2018,
+            "endTime": 2018,
+            "location": "Town of Evans",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Sediment Control", "Recreation and Access"],
+            "recipients": ["Town of Evans"],
+            "description": "Shallow draft commercial/recreational harbor, federally constructed and locally operated/maintained. The entrance channel is maintained at 8 feet depth, and the harbor basin is 4-6 ft. East and west breakwaters create a combined 840 feet of protection, plus an added 580 ft of protection from a shoreline revetment.",
+            "image": "/img/project-img/Sturgeon-Point-Marina.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-79.046192, 42.692213]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 26,
+        "properties": {
+            "name": "Cattaraugus Creek Harbor",
+            "link": ["https://www.lrd.usace.army.mil/Media/News/Article/3634827/wetland-restoration-with-dredged-material-proving-successful-in-buffalos-back-y/"],
+            "startTime": 1983,
+            "endTime": 1983,
+            "location": "Town of Hanover",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Sediment Control", "Recreation and Access", "Flood Control"],
+            "recipients": ["Town of Hanover"],
+            "description": "Shallow recreational harbor with West and South Breakwaters, providing 2,450 total feet of protection. The project provides flood control benefits by removing shoals at the mouth of the creek and reducing ice jam flooding threat.",
+            "image": "/img/project-img/Cattaraugus-Creek-Harbor.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-79.137213, 42.568760]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 27,
+        "properties": {
+            "name": "Dunkirk Harbor",
+            "link": ["https://www.lrd.usace.army.mil/Media/News/Article/3634827/wetland-restoration-with-dredged-material-proving-successful-in-buffalos-back-y/"],
+            "startTime": 1943,
+            "endTime": 1943,
+            "location": "Dunkirk",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Sediment Control", "Recreation and Access"],
+            "recipients": ["City of Dunkirk"],
+            "description": "Deep draft harbor with over 1.3 miles of breakwater structures. The harbor requires dredging every 3 years and was last dredged in 2023. Repairs to deteriorated sections of the northern outer breakwater are needed for adequate harbor protection.",
+            "image": "/img/project-img/Dunkirk-Harbor.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-79.339364, 42.489792]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 28,
+        "properties": {
+            "name": "Barcelona Harbor",
+            "link": ["https://www.lrd.usace.army.mil/Media/News/Article/3634827/wetland-restoration-with-dredged-material-proving-successful-in-buffalos-back-y/"],
+            "startTime": 1950,
+            "endTime": 1950,
+            "location": "Town of Westfield",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Sediment Control", "Recreation and Access"],
+            "recipients": ["Town of Westfield"],
+            "description": "Shallow draft recreational harbor protected by east and west breakwaters totaling 1,730 feet. Requires dredging every 5-10 years. Shoaling within the channel and adjacent to the west breakwater continues to pose challenges to harbor protection.",
+            "image": "/img/project-img/Barcelona-Harbor.png"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-79.595680, 42.344987]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 29,
+        "properties": {
+            "name": "Buffalo Outer Harbor Wetland Ecosystem",
+            "link": ["https://www.dvidshub.net/image/8087760/buffalo-outer-harbor-wetland-ecosystem-phase-construction"],
+            "startTime": 2023,
+            "endTime": null,
+            "location": "Buffalo",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Sediment Control", "Recreation and Access"],
+            "recipients": ["City of Buffalo"],
+            "description": "Construction of a new breakwater containing sediment dredged from the Buffalo River, to form the base of a new wetland ecosystem in the abandoned Shipping Slip 3 on the city's Outer Harbor.",
+            "image": "/img/project-img/Buffalo-Outer-Harbor-Wetland-Ecosystem.jpg"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.883412, 42.870433]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 30,
+        "properties": {
+            "name": "Buffalo River AOC Restoration Project: Old Bailey Woods",
+            "link": ["https://www.dvidshub.net/image/8087760/buffalo-outer-harbor-wetland-ecosystem-phase-construction"],
+            "startTime": null,
+            "endTime": null,
+            "location": "Buffalo",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Erosion Control", "Habitat Protection", "Habitat Creation"],
+            "recipients": ["City of Buffalo"],
+            "description": "Provided 805 linear feet of shoreline habitat and 3.1 acres of riparian buffer habitat restoration and enhancements.",
+            "image": "/img/project-img/Old-Bailey-Woods.jpg"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.830936, 42.859476]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 31,
+        "properties": {
+            "name": "Buffalo River AOC Restoration Project: Ohio Street Boat Launch",
+            "link": ["https://www.dvidshub.net/image/8087760/buffalo-outer-harbor-wetland-ecosystem-phase-construction"],
+            "startTime": null,
+            "endTime": null,
+            "location": "Buffalo",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Erosion Control", "Habitat Protection", "Habitat Creation"],
+            "recipients": ["City of Buffalo"],
+            "description": "Restored over 300 feet of shoreline and create 1.25 acres of upland habitat while enhancing public use of this NYSDEC maintained site.",
+            "image": "/img/project-img/Ohio-Street-Boat-Launch.jpg"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.868443, 42.866304]
         }
       }
     ]
