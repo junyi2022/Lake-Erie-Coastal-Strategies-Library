@@ -86,8 +86,8 @@
         "type": "Feature",
         "id": 4,
         "properties": {
-            "name": "The Riverbend project",
-            "link": ["https://www.buffalourbandevelopment.com/budc-projects-riverbend-development-plan", "https://www.buffalourbandevelopment.com/documents/budc/RiverBend_Master%20Plan%20Report_%20FINAL_for%20print.pdf", "https://bnwaterkeeper.org/wp-content/uploads/2011/11/Buffalo-River-Greenway-Vision-and-Implementation-Plan.pdf"],
+            "name": "Buffalo River AOC Restoration Project: Riverbend project",
+            "link": ["https://www.buffalourbandevelopment.com/budc-projects-riverbend-development-plan", "https://www.buffalourbandevelopment.com/documents/budc/RiverBend_Master%20Plan%20Report_%20FINAL_for%20print.pdf", "https://bnwaterkeeper.org/wp-content/uploads/2011/11/Buffalo-River-Greenway-Vision-and-Implementation-Plan.pdf", "https://www.biohabitats.com/project/riverbend-commerce-park-site-development-plan/"],
             "startTime": 2013,
             "endTime": 2018,
             "location": "Buffalo River",
@@ -534,7 +534,7 @@
         },
         "geometry": {
           "type": "Point",
-          "coordinates": [-78.908561, 42.935589]
+          "coordinates": [-79.046192, 42.692213]
         }
       },
       {
@@ -555,7 +555,7 @@
         },
         "geometry": {
           "type": "Point",
-          "coordinates": [-79.81409, 42.34725]
+          "coordinates": [-79.137213, 42.568760]
         }
       },
       {
@@ -576,7 +576,7 @@
         },
         "geometry": {
           "type": "Point",
-          "coordinates": [-79.81409, 42.34725]
+          "coordinates": [-79.339364, 42.489792]
         }
       },
       {
@@ -597,7 +597,7 @@
         },
         "geometry": {
           "type": "Point",
-          "coordinates": [-79.81409, 42.34725]
+          "coordinates": [-79.595680, 42.344987]
         }
       },
       {
@@ -618,7 +618,49 @@
         },
         "geometry": {
           "type": "Point",
-          "coordinates": [-79.81409, 42.34725]
+          "coordinates": [-78.883412, 42.870433]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 30,
+        "properties": {
+            "name": "Buffalo River AOC Restoration Project: Old Bailey Woods",
+            "link": ["https://www.dvidshub.net/image/8087760/buffalo-outer-harbor-wetland-ecosystem-phase-construction"],
+            "startTime": null,
+            "endTime": null,
+            "location": "Buffalo",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Erosion Control", "Habitat Protection", "Habitat Creation"],
+            "recipients": ["City of Buffalo"],
+            "description": "Provided 805 linear feet of shoreline habitat and 3.1 acres of riparian buffer habitat restoration and enhancements.",
+            "image": "/img/project-img/Old-Bailey-Woods.jpg"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.830936, 42.859476]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 31,
+        "properties": {
+            "name": "Buffalo River AOC Restoration Project: Ohio Street Boat Launch",
+            "link": ["https://www.dvidshub.net/image/8087760/buffalo-outer-harbor-wetland-ecosystem-phase-construction"],
+            "startTime": null,
+            "endTime": null,
+            "location": "Buffalo",
+            "funder": "Others",
+            "funding": null,
+            "type": ["Erosion Control", "Habitat Protection", "Habitat Creation"],
+            "recipients": ["City of Buffalo"],
+            "description": "Restored over 300 feet of shoreline and create 1.25 acres of upland habitat while enhancing public use of this NYSDEC maintained site.",
+            "image": "/img/project-img/Ohio-Street-Boat-Launch.jpg"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.868443, 42.866304]
         }
       }
     ]
