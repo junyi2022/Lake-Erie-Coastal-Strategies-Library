@@ -38,6 +38,21 @@
     height: 100%;
 }
 
+.popup-info-warp {
+    display: flex;
+    flex-direction: row;
+}
+
+.popup-info {
+    width: 30%;
+}
+
+.pop-img {
+    width: 70%;
+    padding: 0 0 10px 20px;
+    box-sizing: border-box;
+}
+
 /* .leaflet-popup-content-wrapper, .leaflet-popup-tip {
     width: 60vw;
 } */

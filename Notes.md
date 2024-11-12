@@ -1,0 +1,1 @@
+Project image link in geojson should be based on the location of the html to the image.

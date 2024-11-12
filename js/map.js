@@ -158,16 +158,8 @@ function initializeMap(censusTracts, dataBoundary, huc10, huc12, county, shoreli
     }).bindTooltip((l) => {
     return `<p class="project-tooltip"><strong>Name:</strong> ${l.feature.properties.name}</p>`;
   }).bindPopup((l) => {
-    return `<h3 class="pop-title"><a href=${l.feature.properties.link[0]} target="_blank">${l.feature.properties.name}</a></h3>
-    <img class="pop-img" src="${l.feature.properties.image}">
-    <p class="pop-content"><strong>Start Time:</strong> ${l.feature.properties.startTime}</p>
-    <p class="pop-content"><strong>End Time:</strong> ${l.feature.properties.endTime}</p>
-    <p class="pop-content"><strong>Location:</strong> ${l.feature.properties.location}</p>
-    <p class="pop-content"><strong>Funding:</strong> ${l.feature.properties.funding}</p>
-    <p class="pop-content"><strong>Recipient:</strong> ${l.feature.properties.recipients}</p>
-    <p class="pop-content"><strong>Project Type:</strong> ${l.feature.properties.type}</p>
-    <p class="pop-content"><strong>Description:</strong> ${l.feature.properties.description}</p>`;
-  });
+    return handlePopupContent(l);
+  }, {maxWidth: handlePopupWidth()});
 
   map.projectLayer.addTo(map);
 
@@ -197,7 +189,6 @@ function resetAllStyles(map) {
 function calProjectStyle(projects) {
   const category = projects.properties.type[0];
   const catColor = colorScale(categoryStyle[category]);
-  console.log(catColor);
   return {
     radius: 8,
     fillColor: catColor,
@@ -206,6 +197,57 @@ function calProjectStyle(projects) {
     opacity: 1,
     fillOpacity: 0.8,
   };
+}
+
+// Popup related dynamics
+
+function handlePopupWidth() {
+  const screenWidth = window.innerWidth;
+  return screenWidth * 0.6;
+}
+
+function handlePopupContent(l) {
+  const popDiv = document.createElement('div'); // abstract html div tag
+  popDiv.classList.add('popup-all-wrapper'); // div class
+  popDiv.innerHTML = `<h3 class="pop-title"><a href=${l.feature.properties.link[0]} target="_blank">${l.feature.properties.name}</a></h3>`; // add html content
+
+  // div for info and image
+  const popContent = document.createElement('div');
+  popContent.classList.add('popup-info-warp');
+
+  // div for info list on the left
+  const popInfoDiv = document.createElement('div');
+  popInfoDiv.classList.add('pop-info');
+  const infoHtml = `
+    <p class="pop-content"><strong>Start Time:</strong> ${l.feature.properties.startTime}</p>
+    <p class="pop-content"><strong>End Time:</strong> ${l.feature.properties.endTime}</p>
+    <p class="pop-content"><strong>Location:</strong> ${l.feature.properties.location}</p>
+    <p class="pop-content"><strong>Funding:</strong> ${l.feature.properties.funding}</p>
+    <p class="pop-content"><strong>Recipient:</strong> ${l.feature.properties.recipients}</p>
+    <p class="pop-content"><strong>Project Type:</strong> ${l.feature.properties.type}</p>
+  `;
+
+  popInfoDiv.innerHTML = infoHtml;
+
+  popContent.appendChild(popInfoDiv);
+
+  // Create and append image element when there are images
+  if (l.feature.properties.image !== undefined) {
+    const imageElement = document.createElement('img');
+    imageElement.classList.add('pop-img');
+    imageElement.src = l.feature.properties.image;
+    popContent.appendChild(imageElement);
+  }
+
+  popDiv.appendChild(popContent);
+
+  // Create and append the description paragraph at the end
+  const descriptionParagraph = document.createElement('p');
+  descriptionParagraph.classList.add('pop-content');
+  descriptionParagraph.innerHTML = `<strong>Description:</strong> ${l.feature.properties.description}`;
+  popDiv.appendChild(descriptionParagraph);
+
+  return popDiv.outerHTML; // output as html string instead of object
 }
 
 // legend style
