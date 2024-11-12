@@ -593,7 +593,7 @@
             "type": ["Sediment Control", "Recreation and Access"],
             "recipients": ["Town of Westfield"],
             "description": "Shallow draft recreational harbor protected by east and west breakwaters totaling 1,730 feet. Requires dredging every 5-10 years. Shoaling within the channel and adjacent to the west breakwater continues to pose challenges to harbor protection.",
-            "image": "https://junyi2022.github.io/img/project-img/Barcelona-Harbor.png"
+            "image": "img/project-img/Barcelona-Harbor.png"
         },
         "geometry": {
           "type": "Point",
