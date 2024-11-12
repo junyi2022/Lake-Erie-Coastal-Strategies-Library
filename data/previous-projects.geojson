@@ -332,7 +332,7 @@
         "id": 16,
         "properties": {
             "name": "Living Shoreline Project at Ellicott Creek Park",
-            "link": ["https://www.wsp.com/en-us/projects/buckhorn-island-shoreline-and-grass-island-habitat-enhancement"],
+            "link": ["https://bnwaterkeeper.org/ellicott-creek/"],
             "startTime": 2016,
             "endTime": 2017,
             "location": "Ellicott River, Tonawanda",
@@ -353,7 +353,7 @@
         "id": 17,
         "properties": {
             "name": "Living Shoreline Project at Ellicott Island Bark Park",
-            "link": ["https://www.wsp.com/en-us/projects/buckhorn-island-shoreline-and-grass-island-habitat-enhancement"],
+            "link": ["https://bnwaterkeeper.org/ellicott-island-bark-park/"],
             "startTime": 2024,
             "endTime": 2024,
             "location": "Tonawanda",
@@ -395,7 +395,7 @@
         "id": 19,
         "properties": {
             "name": "Living Shoreline Project at North Tonawanda Botanical Garden",
-            "link": ["https://bnwaterkeeper.org/hyde-park/"],
+            "link": ["https://bnwaterkeeper.org/north-tonawanda-botanical-garden/"],
             "startTime": 2019,
             "endTime": 2021,
             "location": "Tonawanda",
@@ -521,7 +521,7 @@
         "id": 25,
         "properties": {
             "name": "Sturgeon Point Marina",
-            "link": ["https://www.lrd.usace.army.mil/Media/News/Article/3634827/wetland-restoration-with-dredged-material-proving-successful-in-buffalos-back-y/"],
+            "link": [],
             "startTime": 2018,
             "endTime": 2018,
             "location": "Town of Evans",
@@ -542,7 +542,7 @@
         "id": 26,
         "properties": {
             "name": "Cattaraugus Creek Harbor",
-            "link": ["https://www.lrd.usace.army.mil/Media/News/Article/3634827/wetland-restoration-with-dredged-material-proving-successful-in-buffalos-back-y/"],
+            "link": [],
             "startTime": 1983,
             "endTime": 1983,
             "location": "Town of Hanover",
@@ -563,7 +563,7 @@
         "id": 27,
         "properties": {
             "name": "Dunkirk Harbor",
-            "link": ["https://www.lrd.usace.army.mil/Media/News/Article/3634827/wetland-restoration-with-dredged-material-proving-successful-in-buffalos-back-y/"],
+            "link": [],
             "startTime": 1943,
             "endTime": 1943,
             "location": "Dunkirk",
@@ -584,7 +584,7 @@
         "id": 28,
         "properties": {
             "name": "Barcelona Harbor",
-            "link": ["https://www.lrd.usace.army.mil/Media/News/Article/3634827/wetland-restoration-with-dredged-material-proving-successful-in-buffalos-back-y/"],
+            "link": [],
             "startTime": 1950,
             "endTime": 1950,
             "location": "Town of Westfield",
@@ -593,7 +593,7 @@
             "type": ["Sediment Control", "Recreation and Access"],
             "recipients": ["Town of Westfield"],
             "description": "Shallow draft recreational harbor protected by east and west breakwaters totaling 1,730 feet. Requires dredging every 5-10 years. Shoaling within the channel and adjacent to the west breakwater continues to pose challenges to harbor protection.",
-            "image": "/img/project-img/Barcelona-Harbor.png"
+            "image": "../img/project-img/Barcelona-Harbor.png"
         },
         "geometry": {
           "type": "Point",
@@ -626,7 +626,7 @@
         "id": 30,
         "properties": {
             "name": "Buffalo River AOC Restoration Project: Old Bailey Woods",
-            "link": ["https://www.dvidshub.net/image/8087760/buffalo-outer-harbor-wetland-ecosystem-phase-construction"],
+            "link": ["https://bnwaterkeeper.org/Buffalo-River-Habitat-Restoration/"],
             "startTime": null,
             "endTime": null,
             "location": "Buffalo",
@@ -647,7 +647,7 @@
         "id": 31,
         "properties": {
             "name": "Buffalo River AOC Restoration Project: Ohio Street Boat Launch",
-            "link": ["https://www.dvidshub.net/image/8087760/buffalo-outer-harbor-wetland-ecosystem-phase-construction"],
+            "link": ["https://bnwaterkeeper.org/Buffalo-River-Habitat-Restoration/"],
             "startTime": null,
             "endTime": null,
             "location": "Buffalo",
