@@ -161,6 +161,7 @@ function initializeMap(censusTracts, dataBoundary, huc10, huc12, county, shoreli
     return handlePopupContent(l);
   }, {maxWidth: handlePopupWidth()});
 
+
   map.projectLayer.addTo(map);
 
   return map;
