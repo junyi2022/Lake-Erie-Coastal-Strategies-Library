@@ -209,7 +209,11 @@ function handlePopupWidth() {
 function handlePopupContent(l) {
   const popDiv = document.createElement('div'); // abstract html div tag
   popDiv.classList.add('popup-all-wrapper'); // div class
-  popDiv.innerHTML = `<h3 class="pop-title"><a href=${l.feature.properties.link[0]} target="_blank">${l.feature.properties.name}</a></h3>`; // add html content
+  if (l.feature.properties.link[0] !== undefined) {
+    popDiv.innerHTML = `<h3 class="pop-title"><a href=${l.feature.properties.link[0]} target="_blank">${l.feature.properties.name}</a></h3>`; // add html content
+  } else {
+    popDiv.innerHTML = `<h3 class="pop-title">${l.feature.properties.name}</h3>`;
+  }
 
   // div for info and image
   const popContent = document.createElement('div');
