@@ -227,6 +227,11 @@ function handlePopupWidth() {
   return screenWidthOption > 600 ? 600 : screenWidthOption;
 }
 
+function handlePopupFunding(funding) {
+  console.log(funding);
+  return funding === null ? 'Not Available' : '$' + funding.toString();
+}
+
 function handlePopupContent(l) {
   const popDiv = document.createElement('div'); // abstract html div tag
   popDiv.classList.add('popup-all-wrapper'); // div class
@@ -247,7 +252,7 @@ function handlePopupContent(l) {
     <p class="pop-content"><strong>Start Time:</strong> ${l.feature.properties.startTime}</p>
     <p class="pop-content"><strong>End Time:</strong> ${l.feature.properties.endTime}</p>
     <p class="pop-content"><strong>Location:</strong> ${l.feature.properties.location}</p>
-    <p class="pop-content"><strong>Funding:</strong> ${l.feature.properties.funding}</p>
+    <p class="pop-content"><strong>Funding:</strong> ${handlePopupFunding(l.feature.properties.funding)}</p>
     <p class="pop-content"><strong>Recipient:</strong> ${l.feature.properties.recipients}</p>
     <p class="pop-content"><strong>Project Type:</strong> ${l.feature.properties.type}</p>
   `;
