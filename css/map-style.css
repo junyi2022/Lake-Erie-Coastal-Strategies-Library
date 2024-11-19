@@ -66,12 +66,12 @@
 .legend {
     background-color: rgba(230, 224, 224, 0.438);
     padding: 0.7rem;
-    width: 150px;
+    width: fit-content;
 }
 
 .legendTitle {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .legend-content {

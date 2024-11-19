@@ -79,6 +79,17 @@ const categoryStyle = {
   'Recreation and Access': 1,
 };
 
+const categoryList = [
+  'Habitat Protection',
+  'Habitat Creation',
+  'Sediment Control',
+  'Erosion Control',
+  'Species Protection',
+  'Water Quality',
+  'Flood Control',
+  'Recreation and Access',
+];
+
 // map
 
 function initializeMap(censusTracts, dataBoundary, huc10, huc12, county, shorelineBase, previousProjects) {
@@ -106,8 +117,12 @@ function initializeMap(censusTracts, dataBoundary, huc10, huc12, county, shoreli
     shorelineBaseStyle).bringToFront();
   map.shorelineBaseLayer.addTo(map);
 
-  // initialize legend
+  // add legend
   map.legend = L.control({position: 'bottomright'});
+  map.legend.onAdd = (map) => {
+    return legendStyle(map, colorScale);
+  };
+  map.legend.addTo(map);
 
   // add back button
   const backView = L.control({position: 'topleft'});
@@ -161,7 +176,6 @@ function initializeMap(censusTracts, dataBoundary, huc10, huc12, county, shoreli
     return handlePopupContent(l);
   }, {maxWidth: handlePopupWidth()});
 
-
   map.projectLayer.addTo(map);
 
   return map;
@@ -204,7 +218,13 @@ function calProjectStyle(projects) {
 
 function handlePopupWidth() {
   const screenWidth = window.innerWidth;
-  return screenWidth * 0.6;
+  const screenWidthOption = screenWidth * 0.6;
+
+  // window.addEventListener('resize', () => {
+  //   screenWidth = window.innerWidth;
+  //   screenWidthOption = screenWidth * 0.6;
+  // });
+  return screenWidthOption > 600 ? 600 : screenWidthOption;
 }
 
 function handlePopupContent(l) {
@@ -257,36 +277,39 @@ function handlePopupContent(l) {
 
 // legend style
 
-// function legend1Style(map, colorScale, divname) {
-//   const legendDiv = document.createElement('div'); // abstract html div tag
-//   legendDiv.classList.add('legend'); // div class
-//   legendDiv.innerHTML = '<h4 class="legendTitle">Legend</h4>'; // add html content
+function legendStyle(map, colorScale) {
+  const legendDiv = document.createElement('div'); // abstract html div tag
+  legendDiv.classList.add('legend'); // div class
+  legendDiv.innerHTML = '<h4 class="legendTitle">Legend</h4>'; // add html content
 
-//   const legendContent = document.createElement('div'); // abstract html div tag
-//   legendContent.classList.add(divname); // div class
+  const legendContent = document.createElement('div'); // abstract html div tag
+  legendContent.classList.add('legend-content'); // div class
 
-//   // create a new div to hold unit legend
-//   const unitColorLegendDiv = document.createElement('div');
-//   unitColorLegendDiv.classList.add('unit-legend');
-//   let html = `
-//     <strong><p>Group Number</p></strong>
-//     <div class="catWrapper">
-//   `;
+  // create a new div to hold unit legend
+  const unitColorLegendDiv = document.createElement('div');
+  unitColorLegendDiv.classList.add('unit-legend');
+  let html = `
+    <strong><p>Project Category</p></strong>
+    <div class="catWrapper">
+  `;
 
-//   for (let i = 0; i < numvalues; i++) {
-//     html += `
-//     <div class="colorTextPair">
-//     <div class="catColorBox" style="background-color: ${ColorScale(catColor)}"></div>
-//     <p class="catText">Group ${i+1}</p>
-//     </div>
-//     `;
-//   }
+  for (let i = 0; i < categoryList.length; i++) {
+    html += `
+    <div class="colorTextPair">
+    <div class="catColorBox" style="background-color: ${colorScale(categoryStyle[categoryList[i]])}"></div>
+    <p class="catText">${categoryList[i]}</p>
+    </div>
+    `;
+  }
 
-//   html += '</div>'; // Close the wrapper
-//   unitColorLegendDiv.innerHTML = html;
+  html += '</div>'; // Close the wrapper
+  unitColorLegendDiv.innerHTML = html;
 
-//   legendContent.appendChild(unitColorLegendDiv);
-// }
+  legendContent.appendChild(unitColorLegendDiv);
+  legendDiv.appendChild(legendContent);
+  return legendDiv;
+}
+
 
 export {
   initializeMap,
