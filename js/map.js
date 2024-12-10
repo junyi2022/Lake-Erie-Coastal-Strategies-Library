@@ -92,7 +92,7 @@ const categoryList = [
 
 // map
 
-function initializeMap(censusTracts, dataBoundary, huc10, huc12, county, shorelineBase, previousProjects) {
+function initializeMap(censusTracts, dataBoundary, huc10, huc12, county, shorelineBase, previousProjects, coastalPermits) {
   const map = L.map('map-projects', {zoomSnap: 0, layers: [mapBoxTile]}).setView([42.57, -79.22], 10); // zoomSnap 0 make the zoom level to real number
 
   const baseMaps = {
@@ -163,14 +163,37 @@ function initializeMap(censusTracts, dataBoundary, huc10, huc12, county, shoreli
     map.dataBoundaryLayer.bringToFront();
   });
 
+  // add coastal permits
+
+  map.permitLayer = L.geoJSON(coastalPermits, {
+    style: {
+      radius: 5,
+      fillColor: 'transparent',
+      color: '#FFCF4D',
+      weight: 1.5,
+      opacity: 1,
+      fillOpacity: 0.8,
+    },
+    pointToLayer: (permits, latlng) => L.circleMarker(latlng),
+  }).bindTooltip((l) => {
+    return `<p class="permit-tooltip"><strong>Property:</strong> ${l.feature.properties.Facility}</p>`;
+  }).bindPopup((l) => {
+    return `<p class="permit-tooltip"><strong>Property:</strong> ${l.feature.properties.Facility}</p>
+    <p class="permit-tooltip"><strong>Town or City:</strong> ${l.feature.properties['Town or City']}</p>
+    <p class="permit-tooltip"><strong>Permit Type:</strong> ${l.feature.properties['Permit Type']}</p>
+    <p class="permit-tooltip"><strong>Description:</strong> ${l.feature.properties['Description']}</p>`;
+  });
+
+  map.permitLayer.addTo(map);
+
   // add previous projects
 
-  map.projectLayer = L.geoJSON(previousProjects,
-    {style: calProjectStyle,
-      pointToLayer: (projects, latlng) => L.circleMarker(latlng), // just type latlng or any names and leaflet know how to find goejson's coordinate
-      // Can also do the latlng manually, remember to flip the lon lat (leaflet and geojson read it in the opposite way)
-      // pointToLayer: (parks) => L.circleMarker([parks.geometry.coordinates[1], parks.geometry.coordinates[0]]),
-    }).bindTooltip((l) => {
+  map.projectLayer = L.geoJSON(previousProjects, {
+    style: calProjectStyle,
+    pointToLayer: (projects, latlng) => L.circleMarker(latlng), // just type latlng or any names and leaflet know how to find goejson's coordinate
+    // Can also do the latlng manually, remember to flip the lon lat (leaflet and geojson read it in the opposite way)
+    // pointToLayer: (parks) => L.circleMarker([parks.geometry.coordinates[1], parks.geometry.coordinates[0]]),
+  }).bindTooltip((l) => {
     return `<p class="project-tooltip"><strong>Name:</strong> ${l.feature.properties.name}</p>`;
   }).bindPopup((l) => {
     return handlePopupContent(l);
@@ -205,7 +228,7 @@ function calProjectStyle(projects) {
   const category = projects.properties.type[0];
   const catColor = colorScale(categoryStyle[category]);
   return {
-    radius: 8,
+    radius: 10,
     fillColor: catColor,
     color: catColor,
     weight: 1,
@@ -311,6 +334,18 @@ function legendStyle(map, colorScale) {
   unitColorLegendDiv.innerHTML = html;
 
   legendContent.appendChild(unitColorLegendDiv);
+
+  // add permit legend
+  const permitLegendDiv = document.createElement('div');
+  permitLegendDiv.classList.add('permit-legend');
+  permitLegendDiv.innerHTML = `
+    <div class="colorTextPair">
+    <div class="catColorBox" style="border: 3px solid #FFCF4D"></div>
+    <p class="catText">Coastal Erosion Permit</p>
+    </div>
+    `;
+  legendContent.appendChild(permitLegendDiv);
+
   legendDiv.appendChild(legendContent);
   return legendDiv;
 }
