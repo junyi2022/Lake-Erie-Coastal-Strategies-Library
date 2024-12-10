@@ -25,6 +25,8 @@ const shorelineBase = await readJSON('data/shoreline-base-to-bridge.geojson');
 
 const previousProjects = await readJSON('data/previous-projects.geojson');
 
+const coastalPermits = await readJSON('data/permit-combined.geojson');
+
 // reference layers
 
 window.censusTracts = censusTracts;
@@ -36,10 +38,11 @@ window.shorelineBase = shorelineBase;
 
 // working layers
 window.previousProjects = previousProjects;
+window.coastalPermits = coastalPermits;
 
 // map for unit generator
 // Other maps shouldn't be called here since they are not shown up at the beginning and have display = none
-window.map = initializeMap(censusTracts, dataBoundary, huc10, huc12, county, shorelineBase, previousProjects);
+window.map = initializeMap(censusTracts, dataBoundary, huc10, huc12, county, shorelineBase, previousProjects, coastalPermits);
 
 // menu bar
 handleMenuBar();

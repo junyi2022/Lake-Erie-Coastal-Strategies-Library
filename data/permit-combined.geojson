@@ -1,0 +1,1880 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-0634-00017/00004",
+                "Facility": "Soon Property",
+                "Location": "5040 W Lake Rd, Dunkirk, NY 14048",
+                "Town or City": "Dunkirk",
+                "Applicant": "Soon, Jay",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "03/13/2023",
+                "Permit Effective Date": "03/13/2023",
+                "Permit Expiration Date": "",
+                "Description": "Stabilize 236' Eroded Shoreline With Rock Riprap; Lake Erie CEHA & Below MHW",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1257653",
+                "Latitude": 42.4614915,
+                "Longitude": -79.3892358
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.3892358,
+                    42.4614915
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-0634-00099/00003",
+                "Facility": "Woods Property",
+                "Location": "5096 Shorewood Dr, Dunkirk(t), NY 14048",
+                "Town or City": "Dunkirk",
+                "Applicant": "Woods, Elizabeth",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "07/30/2024",
+                "Permit Effective Date": "08/16/2024",
+                "Permit Expiration Date": "",
+                "Description": "Rehabilitate Breakwall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1283826",
+                "Latitude": 42.4622028,
+                "Longitude": -79.3920541
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.3920541,
+                    42.4622028
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-0646-00107/00009",
+                "Facility": "Hanford Bay Association Property",
+                "Location": "Mouth of Halfway Brook, Hanford BAY/SILVER Creek, NY",
+                "Town or City": "Hanover",
+                "Applicant": "Hanford Bay Association Inc",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "02/19/2023",
+                "Permit Effective Date": "01/12/2024",
+                "Permit Expiration Date": "",
+                "Description": "Clean out of Halfway Brook, removal of debris from mouth of creek",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1257550",
+                "Latitude": 42.5572808,
+                "Longitude": -79.1433729
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.1433729,
+                    42.5572808
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-0646-00249/00001",
+                "Facility": "Godfrey Property",
+                "Location": "1002 S Shore Dr, Hanover, NY 14081",
+                "Town or City": "Hanover",
+                "Applicant": "Godfrey, Brian P",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "06/12/2023",
+                "Permit Effective Date": "07/21/2023",
+                "Permit Expiration Date": "12/31/2026",
+                "Description": "Replacement of a single family house, no waterward expansion only landward",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1263048",
+                "Latitude": 42.5659444,
+                "Longitude": -79.1375447
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.1375447,
+                    42.5659444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-0646-00036/00009",
+                "Facility": "Sunset Bay Marine Park",
+                "Location": "12963 Allegany Rd, Irving, NY 14081",
+                "Town or City": "Hanover",
+                "Applicant": "NYS Office of Parks Rec & Historic Preservation",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "11/07/2023",
+                "Permit Effective Date": "03/25/2024",
+                "Permit Expiration Date": "02/14/2026",
+                "Description": "Additional stone revetment",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1270844",
+                "Latitude": 42.567396,
+                "Longitude": -79.135864
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.135864,
+                    42.567396
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-0658-00261/00001",
+                "Facility": "Bazzone Shoreline Restoration Project",
+                "Location": "5198 Rte 5, Pomfret, NY",
+                "Town or City": "Pomfret",
+                "Applicant": "Bazzone, Tom",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "11/22/2024",
+                "Permit Effective Date": "",
+                "Permit Expiration Date": "",
+                "Description": "A reinforced concrete toe is proposed to stabilize an existing concrete retaining wall with a concrete footer that is undermined.",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?bCountyOnly=true&county_swis_code=06",
+                "Latitude": 42.4565374,
+                "Longitude": -79.4000472
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.4000472,
+                    42.45653739999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-0660-00199/00001",
+                "Facility": "Snyder Property",
+                "Location": "5594 Lakeside Blvd, Portland, NY 14048",
+                "Town or City": "Portland",
+                "Applicant": "Snyder, Victoria",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "05/26/2023",
+                "Permit Effective Date": "07/17/2023",
+                "Permit Expiration Date": "05/07/2025",
+                "Description": "Save and repair existing wall and stairway",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1262510",
+                "Latitude": 42.4510863,
+                "Longitude": -79.4184953
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.41849529999999,
+                    42.4510863
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-0660-00199/00003",
+                "Facility": "Snyder Property",
+                "Location": "5594 Lakeside Blvd, Portland, NY 14048",
+                "Town or City": "Portland",
+                "Applicant": "Snyder, Victoria",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "09/11/2023",
+                "Permit Effective Date": "10/27/2023",
+                "Permit Expiration Date": "05/07/2025",
+                "Description": "Continued work on existing shoreline wall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1267643",
+                "Latitude": 42.4510863,
+                "Longitude": -79.4184953
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.41849529999999,
+                    42.4510863
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-0660-00199/00005",
+                "Facility": "Snyder Property",
+                "Location": "5594 Lakeside Blvd, Portland, NY 14048",
+                "Town or City": "Portland",
+                "Applicant": "Snyder, Victoria",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "05/15/2024",
+                "Permit Effective Date": "06/05/2024",
+                "Permit Expiration Date": "05/07/2025",
+                "Description": "Modification of permit",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1279722",
+                "Latitude": 42.4510863,
+                "Longitude": -79.4184953
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.41849529999999,
+                    42.4510863
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-0660-00190/00001",
+                "Facility": "Dwyer Property",
+                "Location": "5540 Lakeside Blvd, Portland, NY 14166",
+                "Town or City": "Portland",
+                "Applicant": "Dwyer, Robert",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "08/05/2024",
+                "Permit Effective Date": "08/13/2024",
+                "Permit Expiration Date": "09/16/2027",
+                "Description": "Permit extension to construct concrete wall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1284589",
+                "Latitude": 42.4531166,
+                "Longitude": -79.4175292
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.4175292,
+                    42.4531166
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-0664-00024/00010",
+                "Facility": "Sheridan Bay Park",
+                "Location": "NYS Route 5, Sheridan, NY 14135",
+                "Town or City": "Sheridan",
+                "Applicant": "Sheridan, Town of",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "03/28/2023",
+                "Permit Effective Date": "03/29/2023",
+                "Permit Expiration Date": "",
+                "Description": "Reroute Trib. 30 of Lake Erie back into Original Channel",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?bCountyOnly=true&county_swis_code=06",
+                "Latitude": 42.903317,
+                "Longitude": -76.8309151
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.8309151,
+                    42.903317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-0672-00143/00001",
+                "Facility": "Barcelona Harbor Lighthouse",
+                "Location": "8234 E Lake Rd",
+                "Town or City": "Westfield",
+                "Applicant": "NYS Office of Parks Rec & Historic Preservation",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "08/30/2024",
+                "Permit Effective Date": "",
+                "Permit Expiration Date": "",
+                "Description": "Slope stabilization project on slope adjacent to Barcelona Lighthouse. Provide ADA accessibility to Lighthouse and Lake Erie shoreline.",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?bCountyOnly=true&county_swis_code=06",
+                "Latitude": 42.903317,
+                "Longitude": -76.8309151
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.8309151,
+                    42.903317
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1428-00067/00001",
+                "Facility": "Fuerst Property",
+                "Location": "101 Oval St, Brant, NY 14081",
+                "Town or City": "Brant",
+                "Applicant": "Fuerst, Arthur",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "10/26/2023",
+                "Permit Effective Date": "12/15/2023",
+                "Permit Expiration Date": "12/14/2026",
+                "Description": "Construction of seawall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?bCountyOnly=true&county_swis_code=14",
+                "Latitude": 42.5862718,
+                "Longitude": -79.130338
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.130338,
+                    42.5862718
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00409/00001",
+                "Facility": "Lunghino Property",
+                "Location": "9852 Shorecliff Rd, Angola, NY 14006",
+                "Town or City": "Evans",
+                "Applicant": "Lunghino, Julie",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "01/18/2023",
+                "Permit Effective Date": "Issued as of 05/18/2023",
+                "Permit Expiration Date": "05/18/2023",
+                "Description": "New construction - 164 feet shoreline stabilization",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1254828",
+                "Latitude": 42.6155967,
+                "Longitude": -79.1065638
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.10656379999999,
+                    42.6155967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00410/00001",
+                "Facility": "Brown Property",
+                "Location": "9866 Shorecliff Rd, Angola, NY 14006",
+                "Town or City": "Evans",
+                "Applicant": "Brown, Thomas",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "01/19/2023",
+                "Permit Effective Date": "04/03/2023",
+                "Permit Expiration Date": "04/02/2025",
+                "Description": "Secure edge of bank",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1254834",
+                "Latitude": 42.6150437,
+                "Longitude": -79.1067755
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.1067755,
+                    42.6150437
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00026/00015",
+                "Facility": "Sturgeon Point Marina",
+                "Location": "618 Sturgeon Point RD",
+                "Town or City": "Evans",
+                "Applicant": "Evans, Town of",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "03/20/2023",
+                "Permit Effective Date": "03/23/2023",
+                "Permit Expiration Date": "07/18/2025",
+                "Description": "Modification of prohibition period",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1258329",
+                "Latitude": 42.691098,
+                "Longitude": -79.0468723
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.0468723,
+                    42.691098
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00331/00002",
+                "Facility": "Russell Property",
+                "Location": "9862 Shorecliff Rd, Angola, NY 14006",
+                "Town or City": "Evans",
+                "Applicant": "Russell, Daniel",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "03/20/2023",
+                "Permit Effective Date": "04/17/2023",
+                "Permit Expiration Date": "04/16/2026",
+                "Description": "Erosion control to secure bank",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1258415",
+                "Latitude": 42.6152572,
+                "Longitude": -79.1065434
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.1065434,
+                    42.61525719999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00006/00016",
+                "Facility": "Erie Co Sturgeon Point Water Trtmnt Plt",
+                "Location": "722 Sturgeon Pt Rd, Evans, NY 14047",
+                "Town or City": "Evans",
+                "Applicant": "Erie County Water Authority",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "04/05/2023",
+                "Permit Effective Date": "Issued as of 10/25/2023",
+                "Permit Expiration Date": "10/25/2023",
+                "Description": "Shoreline rehabilitation project",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1255373",
+                "Latitude": 42.690062,
+                "Longitude": -79.0358065
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.0358065,
+                    42.690062
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00029/00032",
+                "Facility": "Lake Erie Beach Park at Muddy Creek",
+                "Location": "Lake Shore Rd at Eisenhower Ave, Evans, NY 14004",
+                "Town or City": "Evans",
+                "Applicant": "Evans, Town of",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "04/21/2023",
+                "Permit Effective Date": "Issued as of 11/21/2023",
+                "Permit Expiration Date": "11/21/2023",
+                "Description": "Rehabilitation of embankment, bridge, and retaining wall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1260597",
+                "Latitude": 42.624359,
+                "Longitude": -79.093943
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.093943,
+                    42.624359
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00377/00007",
+                "Facility": "Morgante Property",
+                "Location": "9400 Lake Shore Rd, Angola, NY 14006",
+                "Town or City": "Evans",
+                "Applicant": "Morgante, Mike",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "04/24/2023",
+                "Permit Effective Date": "06/28/2023",
+                "Permit Expiration Date": "05/07/2025",
+                "Description": "Adding additonal footings to breakwall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1260666",
+                "Latitude": 42.6295512,
+                "Longitude": -79.0873347
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.08733470000001,
+                    42.62955119999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00117/00007",
+                "Facility": "Bennett Beach",
+                "Location": "8276 Lake Shore Rd, Evans, NY",
+                "Town or City": "Evans",
+                "Applicant": "Erie County",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "05/09/2023",
+                "Permit Effective Date": "05/23/2023",
+                "Permit Expiration Date": "05/22/2028",
+                "Description": "Pedestrian path for public beach access",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1262151",
+                "Latitude": 42.6595082,
+                "Longitude": -79.0593686
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.0593686,
+                    42.6595082
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00151/00009",
+                "Facility": "Mulawka Property",
+                "Location": "9386 Lake Shore Rd, Angola, NY 14006",
+                "Town or City": "Evans",
+                "Applicant": "Mulawka, John",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "05/22/2023",
+                "Permit Effective Date": "08/09/2023",
+                "Permit Expiration Date": "05/07/2025",
+                "Description": "Adding rocks to existing concrete wall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1262504",
+                "Latitude": 42.6302497,
+                "Longitude": -79.0859992
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.0859992,
+                    42.6302497
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00412/00001",
+                "Facility": "Massaro Property",
+                "Location": "402 Lakeside Rd, Angola, NY 14006",
+                "Town or City": "Evans",
+                "Applicant": "Massaro, William",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "06/26/2023",
+                "Permit Effective Date": "10/03/2023",
+                "Permit Expiration Date": "10/02/2025",
+                "Description": "Shoreline protection project, riprap,",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1263932",
+                "Latitude": 42.6394873,
+                "Longitude": -79.074899
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.074899,
+                    42.6394873
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00413/00001",
+                "Facility": "Scanlon Property",
+                "Location": "7180 Lake Shore Rd, Evans, NY 14047",
+                "Town or City": "Evans",
+                "Applicant": "Scanlon, Thomas",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "09/01/2023",
+                "Permit Effective Date": "10/06/2023",
+                "Permit Expiration Date": "10/05/2026",
+                "Description": "Installation of drainage pipe",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1267224",
+                "Latitude": 42.6953691,
+                "Longitude": -79.0274094
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.0274094,
+                    42.6953691
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00348/00004",
+                "Facility": "Conley Property",
+                "Location": "565 Wendt Rd, Angola, NY 14006",
+                "Town or City": "Evans",
+                "Applicant": "Conley, Daniel",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "09/12/2023",
+                "Permit Effective Date": "12/09/2024",
+                "Permit Expiration Date": "",
+                "Description": "Erosion prevention",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1267729",
+                "Latitude": 42.6659099,
+                "Longitude": -79.0618086
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.0618086,
+                    42.6659099
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00414/00001",
+                "Facility": "Rondeau Property",
+                "Location": "597 Seymour Ter, Evans, NY 14006",
+                "Town or City": "Evans",
+                "Applicant": "Rondeau, Geoffrey",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "09/25/2023",
+                "Permit Effective Date": "11/10/2023",
+                "Permit Expiration Date": "",
+                "Description": "Create platform to install detached shed",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1268559",
+                "Latitude": 42.6537212,
+                "Longitude": -79.0619304
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.0619304,
+                    42.6537212
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00029/00037",
+                "Facility": "Lake Erie Beach Park at Muddy Creek",
+                "Location": "Lake Shore Rd at Eisenhower Ave, Evans, NY 14004",
+                "Town or City": "Evans",
+                "Applicant": "Evans, Town of",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "02/21/2024",
+                "Permit Effective Date": "",
+                "Permit Expiration Date": "",
+                "Description": "Maintenance dredging of mouth of Muddy Creek",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1275550",
+                "Latitude": 42.624359,
+                "Longitude": -79.093943
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.093943,
+                    42.624359
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00416/00001",
+                "Facility": "Travers Property",
+                "Location": "6812 Lake Shore Rd, Derby, NY 14047",
+                "Town or City": "Evans",
+                "Applicant": "Travers, Mark",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "02/29/2024",
+                "Permit Effective Date": "08/30/2024",
+                "Permit Expiration Date": "08/29/2026",
+                "Description": "Construction of reinforced seawall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1276229",
+                "Latitude": 42.7032791,
+                "Longitude": -78.9981684
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9981684,
+                    42.7032791
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00417/00002",
+                "Facility": "Needham Property",
+                "Location": "274 Lakeside Ave",
+                "Town or City": "Evans",
+                "Applicant": "Needham, Frank",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "03/21/2024",
+                "Permit Effective Date": "09/17/2024",
+                "Permit Expiration Date": "09/16/2027",
+                "Description": "Build 95' of retaining wall with footer to prevent further erosion of land.",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1277135",
+                "Latitude": 39.7261611,
+                "Longitude": -75.1397482
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1397482,
+                    39.7261611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00418/00003",
+                "Facility": "Griem Property",
+                "Location": "282 Lakeside Ave",
+                "Town or City": "Evans",
+                "Applicant": "Griem, Wayne",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "03/21/2024",
+                "Permit Effective Date": "09/23/2024",
+                "Permit Expiration Date": "09/22/2026",
+                "Description": "Build retaining wall and splash pad with stone back fill to prevent further erosion.",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1277146",
+                "Latitude": 39.7262738,
+                "Longitude": -75.1395566
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.1395566,
+                    39.7262738
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00419/00001",
+                "Facility": "Barrett Property",
+                "Location": "6504 Hamilton Dr, Evans, NY 14047",
+                "Town or City": "Evans",
+                "Applicant": "Barrett, Thomas J",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "04/16/2024",
+                "Permit Effective Date": "05/09/2024",
+                "Permit Expiration Date": "",
+                "Description": "Add an addition on the existing home. The addition will be landward of the existing home.",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1279487",
+                "Latitude": 42.7104068,
+                "Longitude": -78.9784271
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9784271,
+                    42.7104068
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00347/00004",
+                "Facility": "Crispell Property",
+                "Location": "7358 Beechwood Rd, Evans, NY 14047",
+                "Town or City": "Evans",
+                "Applicant": "Crispell, Gregory",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "05/06/2024",
+                "Permit Effective Date": "",
+                "Permit Expiration Date": "",
+                "Description": "Remove existing rip rap, repair existing footer, and install new wingwall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1279222",
+                "Latitude": 42.6870004,
+                "Longitude": -79.0493891
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.0493891,
+                    42.6870004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00420/00002",
+                "Facility": "Lohr Property",
+                "Location": "9628 Lake Shore Rd, Evans, NY",
+                "Town or City": "Evans",
+                "Applicant": "Lohr, Charles E",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "05/08/2024",
+                "Permit Effective Date": "05/22/2024",
+                "Permit Expiration Date": "",
+                "Description": "Installation of two tri-hooked anchors with a standard 12' mooring buoy",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1279687",
+                "Latitude": 42.6231068,
+                "Longitude": -79.0958645
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.0958645,
+                    42.6231068
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00421/00001",
+                "Facility": "Campbell Property",
+                "Location": "6626B Lake Shore Rd, Evans, NY",
+                "Town or City": "Evans",
+                "Applicant": "Campbell, Kenneth",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "06/07/2024",
+                "Permit Effective Date": "06/13/2024",
+                "Permit Expiration Date": "",
+                "Description": "Addition to an existing cottage and construction of a 36'x24' pole barn",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1281423",
+                "Latitude": 42.7078253,
+                "Longitude": -78.9808258
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9808258,
+                    42.7078253
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00422/00001",
+                "Facility": "Coppede Property",
+                "Location": "446 Sycamore Ave, Evans, NY",
+                "Town or City": "Evans",
+                "Applicant": "Coppede, Richard",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "07/11/2024",
+                "Permit Effective Date": "",
+                "Permit Expiration Date": "",
+                "Description": "Build new cottage in same place as previous cottage, which has been demolished.",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1283321",
+                "Latitude": 42.6285017,
+                "Longitude": -79.0759479
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.0759479,
+                    42.6285017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1444-00026/00025",
+                "Facility": "Sturgeon Point Marina",
+                "Location": "618 Sturgeon Point RD",
+                "Town or City": "Evans",
+                "Applicant": "Evans, Town of",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "11/18/2024",
+                "Permit Effective Date": "",
+                "Permit Expiration Date": "",
+                "Description": "A storm in October, 2019 caused major damage to the Sturgeon Point Marina beyond the original rehabilitation scope. This proposal is to further fortify legs 1 and 2 to the south of the marina.",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1290435",
+                "Latitude": 42.691098,
+                "Longitude": -79.0468723
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.0468723,
+                    42.691098
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1446-00028/00008",
+                "Facility": "River Oaks Marina",
+                "Location": "3001 E River Rd, Grand Island, NY 14072",
+                "Town or City": "Grand Island",
+                "Applicant": "River Oaks Marine Inc",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "07/05/2024",
+                "Permit Effective Date": "11/19/2024",
+                "Permit Expiration Date": "",
+                "Description": "Repair of Breakwall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?bCountyOnly=true&county_swis_code=14",
+                "Latitude": 43.024164,
+                "Longitude": -78.895829
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.895829,
+                    43.024164
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00488/00001",
+                "Facility": "Kleinfelder Property",
+                "Location": "151 Midshore Dr, Blasdell, NY 14219",
+                "Town or City": "Hamburg",
+                "Applicant": "Kleinfelder, Henry",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "01/02/2023",
+                "Permit Effective Date": "01/05/2023",
+                "Permit Expiration Date": "09/30/2024",
+                "Description": "Reactivation of permit",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1253944",
+                "Latitude": 42.779234,
+                "Longitude": -78.8583839
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8583839,
+                    42.779234
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00065/00032",
+                "Facility": "Town of Hamburg Town Park",
+                "Location": "4450 Lake Shore Rd, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Hamburg, Town of",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "02/08/2023",
+                "Permit Effective Date": "05/12/2023",
+                "Permit Expiration Date": "05/11/2028",
+                "Description": "Annual maintenance dredging of beach boat launch, downdrift disposal",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1255931",
+                "Latitude": 42.7632906,
+                "Longitude": -78.8783884
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8783884,
+                    42.7632906
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00532/00001",
+                "Facility": "Wanakah Heights Association Stairs",
+                "Location": "End of Wanakah Heights, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Donovan, Jeremiah",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "02/27/2023",
+                "Permit Effective Date": "03/16/2023",
+                "Permit Expiration Date": "03/15/2025",
+                "Description": "Installation of stairs for beach access",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1257117",
+                "Latitude": 42.7365877,
+                "Longitude": -78.9167087
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9167087,
+                    42.7365877
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00474/00001",
+                "Facility": "Spulecki Property",
+                "Location": "19 N Shore Dr, Blasdell, NY 14219",
+                "Town or City": "Hamburg",
+                "Applicant": "Spulecki, Thomas R",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "03/10/2023",
+                "Permit Effective Date": "03/23/2023",
+                "Permit Expiration Date": "03/22/2026",
+                "Description": "Reissuance of permit to reinforce seawall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1257586",
+                "Latitude": 42.779012,
+                "Longitude": -78.859013
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.859013,
+                    42.779012
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00533/00001",
+                "Facility": "Smith Property",
+                "Location": "51 N Shore Dr, Hamburg, NY 14219",
+                "Town or City": "Hamburg",
+                "Applicant": "Smith, Irving",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "03/10/2023",
+                "Permit Effective Date": "07/24/2023",
+                "Permit Expiration Date": "05/07/2025",
+                "Description": "Wall repair, erosion prevention",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1257634",
+                "Latitude": 42.779012,
+                "Longitude": -78.859013
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.859013,
+                    42.779012
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00476/00006",
+                "Facility": "Hoover Beach Stairways",
+                "Location": "Midshore Dr and N Shore Dr",
+                "Town or City": "Hamburg",
+                "Applicant": "Hoover Beach Inc",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "03/17/2023",
+                "Permit Effective Date": "05/15/2023",
+                "Permit Expiration Date": "05/14/2025",
+                "Description": "repair stairway, extend wall height, add splash pad - btw 21 & 25 N Shore",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1259279",
+                "Latitude": 43.6185543,
+                "Longitude": -85.2792601
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.2792601,
+                    43.6185543
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00535/00001",
+                "Facility": "Hoover Beach Rose Boat Ramp",
+                "Location": "Between 113 and 119 Mid Shore Dr, Hamburg, NY 14219",
+                "Town or City": "Hamburg",
+                "Applicant": "Hoover Beach Inc",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "03/17/2023",
+                "Permit Effective Date": "05/25/2023",
+                "Permit Expiration Date": "05/24/2025",
+                "Description": "reapir storm damaged center of ramp",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1259295",
+                "Latitude": 42.779126,
+                "Longitude": -78.858147
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.858147,
+                    42.779126
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00534/00001",
+                "Facility": "Antonou Property",
+                "Location": "53 N Shore Dr, Hamburg, NY 14219",
+                "Town or City": "Hamburg",
+                "Applicant": "Antonou, Brian",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "03/27/2023",
+                "Permit Effective Date": "07/24/2023",
+                "Permit Expiration Date": "05/07/2025",
+                "Description": "Repair retaining wall erosion damage",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1259180",
+                "Latitude": 42.780377,
+                "Longitude": -78.8582695
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8582695,
+                    42.780377
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00065/00035",
+                "Facility": "Town of Hamburg Town Park",
+                "Location": "4450 Lake Shore Rd, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Hamburg, Town of",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "04/06/2023",
+                "Permit Effective Date": "05/03/2023",
+                "Permit Expiration Date": "05/07/2025",
+                "Description": "Repair section of boat launch",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1259674",
+                "Latitude": 42.7632906,
+                "Longitude": -78.8783884
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8783884,
+                    42.7632906
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00537/00001",
+                "Facility": "Bartholomew Property",
+                "Location": "5108 Lake Shore Rd, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Bartholomew, Anthony O",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "04/13/2023",
+                "Permit Effective Date": "06/15/2023",
+                "Permit Expiration Date": "05/07/2025",
+                "Description": "Seawall repair",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1260123",
+                "Latitude": 42.7438438,
+                "Longitude": -78.9082788
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9082788,
+                    42.7438438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00507/00001",
+                "Facility": "Brooks Property",
+                "Location": "2334 Beachwood Dr, Lakeview, NY",
+                "Town or City": "Hamburg",
+                "Applicant": "Brooks, David",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "04/14/2023",
+                "Permit Effective Date": "05/26/2023",
+                "Permit Expiration Date": "10/24/2025",
+                "Description": "Installation of fence of breakwall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1260184",
+                "Latitude": 42.7362138,
+                "Longitude": -78.9185076
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9185076,
+                    42.7362138
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00538/00001",
+                "Facility": "Buffalo Champagne House",
+                "Location": "3780 Hoover Rd, Hamburg, NY 14219",
+                "Town or City": "Hamburg",
+                "Applicant": "Alchemy Shores LLC",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "04/19/2023",
+                "Permit Effective Date": "07/07/2023",
+                "Permit Expiration Date": "07/06/2025",
+                "Description": "Fill in eroded areas and install elevated boardwalk",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1260323",
+                "Latitude": 42.7825701,
+                "Longitude": -78.8532843
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8532843,
+                    42.7825701
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00514/00007",
+                "Facility": "Town of Hamburg Clock Tower",
+                "Location": "Adjacent to 4100 Lake Shore Rd, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Hamburg, Town of",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "05/11/2023",
+                "Permit Effective Date": "05/16/2023",
+                "Permit Expiration Date": "04/18/2025",
+                "Description": "permit mod to reference updated site plan due to bowing wall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1261745",
+                "Latitude": 42.7731258,
+                "Longitude": -78.8643399
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8643399,
+                    42.7731258
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00540/00001",
+                "Facility": "Sullivan Property",
+                "Location": "4886 Clifton Pkwy, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Sullivan, Maureen",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "05/11/2023",
+                "Permit Effective Date": "06/22/2023",
+                "Permit Expiration Date": "06/21/2026",
+                "Description": "Construction of a two-tiered breakwall with splash pads",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1261785",
+                "Latitude": 42.7545784,
+                "Longitude": -78.8917948
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8917948,
+                    42.7545784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00480/00001",
+                "Facility": "Pastuszynski Property",
+                "Location": "4828 Lake Shore Rd, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Pastuszynski, Joseph H",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "05/18/2023",
+                "Permit Effective Date": "06/14/2023",
+                "Permit Expiration Date": "08/06/2024",
+                "Description": "Permit extension to complete work",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1262185",
+                "Latitude": 42.751873,
+                "Longitude": -78.8951853
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8951853,
+                    42.751873
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00541/00001",
+                "Facility": "Mosey Property",
+                "Location": "5888 Old Lake Shore Rd, Lake View, NY 14085",
+                "Town or City": "Hamburg",
+                "Applicant": "Mosey, Thomas",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "05/22/2023",
+                "Permit Effective Date": "",
+                "Permit Expiration Date": "",
+                "Description": "Minimize erosion, stabilize existing slope",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1262114",
+                "Latitude": 42.7300881,
+                "Longitude": -78.9472237
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9472237,
+                    42.7300881
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00522/00001",
+                "Facility": "Galuski Property",
+                "Location": "41 N Shore Dr, Buffalo, NY 14219",
+                "Town or City": "Hamburg",
+                "Applicant": "Galuski, Nancy",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "05/23/2023",
+                "Permit Effective Date": "",
+                "Permit Expiration Date": "",
+                "Description": "Concrete pad along existing seawall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1262208",
+                "Latitude": 42.779012,
+                "Longitude": -78.859013
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.859013,
+                    42.779012
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00491/00004",
+                "Facility": "Howard Property",
+                "Location": "5262 Lake Shore Rd, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Howard, William J",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "05/24/2023",
+                "Permit Effective Date": "07/07/2023",
+                "Permit Expiration Date": "",
+                "Description": "Original permit for flat breakwall, now constructing stepped breakwall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1262449",
+                "Latitude": 42.7387125,
+                "Longitude": -78.9143073
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9143073,
+                    42.7387125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00542/00001",
+                "Facility": "Clifford Property",
+                "Location": "159 Midshore Dr, Hamburg, NY 14219",
+                "Town or City": "Hamburg",
+                "Applicant": "Clifford, Christie",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "05/30/2023",
+                "Permit Effective Date": "10/05/2023",
+                "Permit Expiration Date": "05/07/2025",
+                "Description": "Replacement of existing seawall and erosion stabilization",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1262572",
+                "Latitude": 42.77926,
+                "Longitude": -78.858445
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.858445,
+                    42.77926
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00476/00006",
+                "Facility": "Hoover Beach Stairways",
+                "Location": "Midshore Dr and N Shore Dr",
+                "Town or City": "Hamburg",
+                "Applicant": "Hoover Beach Inc",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "06/02/2023",
+                "Permit Effective Date": "06/02/2023",
+                "Permit Expiration Date": "05/14/2025",
+                "Description": "Permit mod to correct address on previous permit",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1262665",
+                "Latitude": 43.6185543,
+                "Longitude": -85.2792601
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.2792601,
+                    43.6185543
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00543/00001",
+                "Facility": "Hoover Beach Community Building Access",
+                "Location": "Between 61 & 75 North Shore Dr, Hamburg, NY 14219",
+                "Town or City": "Hamburg",
+                "Applicant": "Hoover Beach Inc",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "06/02/2023",
+                "Permit Effective Date": "07/14/2023",
+                "Permit Expiration Date": "07/13/2025",
+                "Description": "Repair damage from storm",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1262723",
+                "Latitude": 42.7801541,
+                "Longitude": -78.8584869
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8584869,
+                    42.7801541
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00253/00010",
+                "Facility": "Kleinfelder Property",
+                "Location": "149 Midshore Dr, Hamburg, NY 14219",
+                "Town or City": "Hamburg",
+                "Applicant": "Kleinfelder, Henry",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "06/05/2023",
+                "Permit Effective Date": "07/31/2023",
+                "Permit Expiration Date": "07/30/2026",
+                "Description": "Repair storm damage and add staircase",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1262828",
+                "Latitude": 42.7792265,
+                "Longitude": -78.8583705
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8583705,
+                    42.7792265
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00547/00001",
+                "Facility": "Maciejewski Property",
+                "Location": "49 N Shore Dr, Buffalo, NY 14219",
+                "Town or City": "Hamburg",
+                "Applicant": "Maciejewski, Kenneth",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "07/14/2023",
+                "Permit Effective Date": "07/24/2023",
+                "Permit Expiration Date": "05/07/2025",
+                "Description": "Seawall repair",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1264965",
+                "Latitude": 42.779012,
+                "Longitude": -78.859013
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.859013,
+                    42.779012
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00548/00001",
+                "Facility": "Sanko Property",
+                "Location": "47 N Shore Dr, Buffalo, NY 14219",
+                "Town or City": "Hamburg",
+                "Applicant": "Sanko, Lee",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "07/14/2023",
+                "Permit Effective Date": "07/24/2023",
+                "Permit Expiration Date": "05/07/2025",
+                "Description": "Seawall repair, stabilize and prevent erosion",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1264967",
+                "Latitude": 42.7805813,
+                "Longitude": -78.8580483
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8580483,
+                    42.7805813
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00549/00001",
+                "Facility": "Bermel Property",
+                "Location": "45 N Shore Dr, Buffalo, NY 14219",
+                "Town or City": "Hamburg",
+                "Applicant": "Bermel, Bob",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "07/14/2023",
+                "Permit Effective Date": "07/24/2023",
+                "Permit Expiration Date": "05/07/2025",
+                "Description": "Seawall repair, erosion prevention",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1264968",
+                "Latitude": 42.7806396,
+                "Longitude": -78.8579709
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8579709,
+                    42.7806396
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00531/00002",
+                "Facility": "Callahan Property",
+                "Location": "5150 Lakeshore Rd, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Callahan, Kevin",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "07/25/2023",
+                "Permit Effective Date": "08/08/2023",
+                "Permit Expiration Date": "",
+                "Description": "Addition to existing breakwal and stairway access",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1265271",
+                "Latitude": 42.7424444,
+                "Longitude": -78.910056
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.910056,
+                    42.7424444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00167/00003",
+                "Facility": "Ullmark Property",
+                "Location": "4918 Clifton Pkwy, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Ullmark, William",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "07/31/2023",
+                "Permit Effective Date": "09/01/2023",
+                "Permit Expiration Date": "11/19/2024",
+                "Description": "Reface concrete retaining wall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1265383",
+                "Latitude": 42.7538001,
+                "Longitude": -78.8929066
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8929066,
+                    42.7538001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00341/00009",
+                "Facility": "Cellino Property",
+                "Location": "5800 Old Lakeshore Rd, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Cellino, Ross M Jr",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "08/24/2023",
+                "Permit Effective Date": "10/11/2023",
+                "Permit Expiration Date": "05/07/2025",
+                "Description": "Placing boulders along shoreline to prevent erosion",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1266916",
+                "Latitude": 42.730529,
+                "Longitude": -78.943206
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.943206,
+                    42.730529
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00531/00003",
+                "Facility": "Callahan Property",
+                "Location": "5150 Lakeshore Rd, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Callahan, Kevin",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "08/28/2023",
+                "Permit Effective Date": "09/15/2023",
+                "Permit Expiration Date": "09/14/2026",
+                "Description": "Breakwall to connect existing concrete structures along lake",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1267737",
+                "Latitude": 42.7424444,
+                "Longitude": -78.910056
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.910056,
+                    42.7424444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00065/00032",
+                "Facility": "Town of Hamburg Town Park",
+                "Location": "4450 Lake Shore Rd, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Hamburg, Town of",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "03/05/2024",
+                "Permit Effective Date": "03/27/2024",
+                "Permit Expiration Date": "05/11/2028",
+                "Description": "Modify permit to allow placement of dredged material along east beach",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1276189",
+                "Latitude": 42.7632906,
+                "Longitude": -78.8783884
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8783884,
+                    42.7632906
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00552/00003",
+                "Facility": "Whalen Property",
+                "Location": "39 N Shore Dr",
+                "Town or City": "Hamburg",
+                "Applicant": "Whalen, Sandra",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "03/15/2024",
+                "Permit Effective Date": "05/09/2024",
+                "Permit Expiration Date": "",
+                "Description": "Tear down existing home and construct new one.",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1276980",
+                "Latitude": 1.4185701,
+                "Longitude": 103.906126
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.906126,
+                    1.4185701
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00537/00003",
+                "Facility": "Bartholomew Property",
+                "Location": "5108 Lake Shore Rd, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Bartholomew, Anthony O",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "05/06/2024",
+                "Permit Effective Date": "05/09/2024",
+                "Permit Expiration Date": "",
+                "Description": "Build new home outside of CEHA",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1279217",
+                "Latitude": 42.7438438,
+                "Longitude": -78.9082788
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9082788,
+                    42.7438438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00540/00001",
+                "Facility": "Sullivan Property",
+                "Location": "4886 Clifton Pkwy, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Sullivan, Maureen",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "05/08/2024",
+                "Permit Effective Date": "06/12/2024",
+                "Permit Expiration Date": "06/21/2026",
+                "Description": "Addition of aluminum fence to the perimeter of previously permitted concrete pad and breakwall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1280689",
+                "Latitude": 42.7545784,
+                "Longitude": -78.8917948
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8917948,
+                    42.7545784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00445/00007",
+                "Facility": "Smith Property",
+                "Location": "38 Wanakah Hts, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Smith, Raymond J",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "05/09/2024",
+                "Permit Effective Date": "06/14/2024",
+                "Permit Expiration Date": "05/07/2025",
+                "Description": "Construct new footer for existing breakwall",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1279992",
+                "Latitude": 42.7370029,
+                "Longitude": -78.9161251
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9161251,
+                    42.7370029
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00475/00004",
+                "Facility": "Insalaco Property",
+                "Location": "223 S Shore Dr, Hamburg, NY 14075",
+                "Town or City": "Hamburg",
+                "Applicant": "Insalaco, Samuel",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "10/10/2024",
+                "Permit Effective Date": "10/22/2024",
+                "Permit Expiration Date": "09/14/2025",
+                "Description": "Reissue permit to construct deck",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1288858",
+                "Latitude": 42.7769672,
+                "Longitude": -78.8611147
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8611147,
+                    42.7769672
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00556/00001",
+                "Facility": "Costa Property",
+                "Location": "5004 Lakeshore Rd, Hamburg, NY",
+                "Town or City": "Hamburg",
+                "Applicant": "Costa, Nicholas",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "10/31/2024",
+                "Permit Effective Date": "",
+                "Permit Expiration Date": "",
+                "Description": "Repair existing concrete retaining wall and stairs.",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1289725",
+                "Latitude": 42.7470233,
+                "Longitude": -78.9028096
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9028096,
+                    42.7470233
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00557/00001",
+                "Facility": "Montgomery Property",
+                "Location": "5784 Old Lakeshore Rd, Hamburg, NY",
+                "Town or City": "Hamburg",
+                "Applicant": "Montgomery, Carolyn H",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "11/04/2024",
+                "Permit Effective Date": "",
+                "Permit Expiration Date": "",
+                "Description": "Reposition existing rock revetment.",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1289745",
+                "Latitude": 42.73064,
+                "Longitude": -78.9415554
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.9415554,
+                    42.73064
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Application ID": "9-1448-00209/00019",
+                "Facility": "Woodlawn Beach State Park",
+                "Location": "S3580 Lakeshore Rd, Hamburg, NY 14219",
+                "Town or City": "Hamburg",
+                "Applicant": "NYS Office of Parks Rec & Historic Preservation",
+                "Permit Type": "Coastal Erosion Management",
+                "Date Received": "11/06/2024",
+                "Permit Effective Date": "11/08/2024",
+                "Permit Expiration Date": "11/28/2027",
+                "Description": "Extension of the permit.",
+                "Link": "https://extapps.dec.ny.gov/cfmx/extapps/envapps/index.cfm?view=detail&applid=1289755",
+                "Latitude": 42.7814609,
+                "Longitude": -78.8516715
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.8516715,
+                    42.7814609
+                ]
+            }
+        }
+    ]
+}
